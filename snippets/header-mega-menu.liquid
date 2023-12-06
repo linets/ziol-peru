@@ -10,6 +10,7 @@
     {%- for link in section.settings.menu.links -%}
       <li>
         {%- if link.links != blank -%}
+          {%- assign title_downcase = link.title | downcase -%}
           <header-menu>
             <details id="Details-HeaderMenu-{{ forloop.index }}" class="mega-menu">
               <summary
@@ -31,10 +32,11 @@
                 tabindex="-1"
               >
                 <ul
-                  class="mega-menu__list page-width{% if link.levels == 1 %} mega-menu__list--condensed{% endif %}"
+                  class="mega-menu__list {% if link.levels == 1 %} mega-menu__list--condensed{% endif %}"
                   role="list"
                 >
-                  {%- for childlink in link.links -%}
+                  <div>
+                    {%- for childlink in link.links -%}
                     <li>
                       <a
                         id="HeaderMenu-{{ link.handle }}-{{ childlink.handle }}"
@@ -66,7 +68,17 @@
                       {%- endif -%}
                     </li>
                   {%- endfor -%}
+                  </div>
+                  {% for item in shop.metaobjects.megamenu_content.values %}
+                  {%- assign title = item.title | downcase -%}
+                  {% if title == title_downcase %}
+                    <div>
+                       <img src=" {{item.image | image_url: width: 1400, height: 1400 }}" />
+                    </div>
+                  {% endif %}
+               {% endfor %}
                 </ul>
+              
               </div>
             </details>
           </header-menu>
