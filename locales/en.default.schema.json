@@ -2318,6 +2318,9 @@
             "label": "Thumbnail carousel"
           }
         },
+        "orientation_thumbnail": {
+          "label": "Orientation thumbnail"
+        },
         "constrain_to_viewport": {
           "label": "Constrain media to screen height"
         },
