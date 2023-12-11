@@ -8,32 +8,16 @@
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "Welcome to our store",
-            "link": ""
-          }
-        },
-        "88069885-f40a-4c1b-8823-a83b19a4417f": {
-          "type": "announcement",
-          "settings": {
-            "text": "Welcome to our store 1",
-            "link": ""
-          }
-        },
-        "4c4ee8e1-256b-411e-9a2f-582df56b6756": {
-          "type": "announcement",
-          "settings": {
-            "text": "Welcome to our store 2",
+            "text": "ENVÍO GRATIS POR COMPRAS SOBRE $49.900, DE ATACAMA A LOS LAGOS.",
             "link": ""
           }
         }
       },
       "block_order": [
-        "announcement-bar-0",
-        "88069885-f40a-4c1b-8823-a83b19a4417f",
-        "4c4ee8e1-256b-411e-9a2f-582df56b6756"
+        "announcement-bar-0"
       ],
       "settings": {
-        "color_scheme": "",
+        "color_scheme": "accent-1",
         "show_line_separator": true,
         "show_social": false,
         "auto_rotate": true,
