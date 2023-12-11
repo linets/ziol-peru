@@ -3,31 +3,50 @@
     "608f3ae5-b1cf-4082-919f-3ead2712d478": {
       "type": "slideshow",
       "blocks": {
-        "template--16161306640578__608f3ae5-b1cf-4082-919f-3ead2712d478-slide-1": {
+        "6565bc0f-3939-488b-909e-7616f7e59da3": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Banner_web_88.webp",
+            "image": "shopify:\/\/shop_images\/xmas_sale_mochilas_desktop.webp",
+            "heading": "",
+            "heading_size": "h2",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "bottom-left",
+            "show_text_box": false,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "40d36210-86aa-4bbd-bbc6-78998c425c99": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Promoci_n_bananos_desktop.webp",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
             "button_label": "",
             "link": "",
             "button_style_secondary": false,
-            "box_align": "middle-center",
+            "box_align": "middle-right",
             "show_text_box": false,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
-            "color_scheme": "",
+            "color_scheme": "scheme-1",
             "text_alignment_mobile": "center"
           }
         }
       },
       "block_order": [
-        "template--16161306640578__608f3ae5-b1cf-4082-919f-3ead2712d478-slide-1"
+        "6565bc0f-3939-488b-909e-7616f7e59da3",
+        "40d36210-86aa-4bbd-bbc6-78998c425c99"
       ],
       "settings": {
         "layout": "full_bleed",
-        "slide_height": "medium",
+        "slide_height": "large",
         "slider_visual": "dots",
         "auto_rotate": false,
         "change_slides_speed": 5,
@@ -77,8 +96,11 @@
         "da587b06-0f33-44bc-810b-2e0c6e47c6fd",
         "17f07400-8047-48b9-8c7f-1ce87b738da5"
       ],
+      "custom_css": [
+
+      ],
       "settings": {
-        "title": "Shop by category",
+        "title": "<strong>ADELANTA TUS COMPRAS DE NAVIDAD<\/strong>",
         "heading_size": "h2",
         "image_ratio": "portrait",
         "columns_desktop": 5,
@@ -90,24 +112,10 @@
         "padding_bottom": 36
       }
     },
-    "b757c510-60e5-49de-af89-b1387823f103": {
-      "type": "image-banner",
-      "settings": {
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
     "241f4691-2553-4f6e-bc31-ad64aa132e6b": {
       "type": "image-banner",
       "settings": {
+        "image": "shopify:\/\/shop_images\/metalicos_desktop.webp",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
@@ -154,7 +162,7 @@
         "heading": "",
         "heading_size": "h1",
         "enable_video_looping": true,
-        "video_url": "https:\/\/www.youtube.com\/watch?v=7UUC21zK6oc&list=TLGGMVLNdJkA1wYxMzEwMjAyMw",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=rqqa37AjIoI&list=TLGG9WBNJA4x4TcwNzEyMjAyMw",
         "description": "",
         "full_width": true,
         "color_scheme": "",
@@ -168,8 +176,9 @@
         "template--16161306640578__406a65c7-d10a-4160-a30c-634059fa1435-column-1": {
           "type": "column",
           "settings": {
-            "title": "<strong>DESPACHO A TODO CHILE <\/strong>",
-            "text": "<p>Entrega en hasta 10 días hábiles<\/p>",
+            "image": "shopify:\/\/shop_images\/2_7.webp",
+            "title": "",
+            "text": "",
             "link_label": "",
             "link": ""
           }
@@ -211,8 +220,8 @@
       "settings": {
         "title": "",
         "heading_size": "h2",
-        "image_width": "third",
-        "image_ratio": "circle",
+        "image_width": "full",
+        "image_ratio": "square",
         "columns_desktop": 4,
         "column_alignment": "center",
         "background_style": "none",
@@ -222,14 +231,13 @@
         "columns_mobile": "2",
         "swipe_on_mobile": true,
         "padding_top": 16,
-        "padding_bottom": 16
+        "padding_bottom": 20
       }
     }
   },
   "order": [
     "608f3ae5-b1cf-4082-919f-3ead2712d478",
     "c9b0fe17-cb03-4806-8bab-0744078ee0da",
-    "b757c510-60e5-49de-af89-b1387823f103",
     "241f4691-2553-4f6e-bc31-ad64aa132e6b",
     "featured_collection",
     "dc802415-49b3-4130-a1bb-b4143927a0d4",

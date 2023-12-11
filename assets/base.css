@@ -2,7 +2,7 @@
   --alpha-button-background: 1;
   --alpha-button-border: 1;
   --alpha-link: 0.85;
-  --alpha-badge-border: 0.1;
+  --alpha-badge-border: 0.1; 
 }
 
 .product-card-wrapper .card,
@@ -3525,4 +3525,4 @@ details-disclosure>details {
     --border-offset: 0px;
     /* Prevent the border from growing on buttons when this effect is on. */
   }
-}
+} 
