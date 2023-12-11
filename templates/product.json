@@ -115,6 +115,7 @@
         "constrain_to_viewport": true,
         "media_fit": "contain",
         "gallery_layout": "thumbnail_slider",
+        "orientation_thumbnail": "left",
         "media_position": "left",
         "image_zoom": "hover",
         "mobile_thumbnails": "hide",

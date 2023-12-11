@@ -57,6 +57,11 @@ function enableZoomOnHover(zoomRatio) {
       magnify(image, zoomRatio);
       moveWithHover(image, event, zoomRatio);
     };
+
+    image.addEventListener('mouseover', event => {
+      magnify(image, zoomRatio);
+      moveWithHover(image, event, zoomRatio);
+    })
   });
 }
 

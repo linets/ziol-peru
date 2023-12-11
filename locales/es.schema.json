@@ -2015,6 +2015,9 @@
             "label": "Carrusel de miniaturas"
           }
         },
+        "orientation_thumbnail": {
+          "label": "Orientación miniaturas"
+        },
         "media_size": {
           "label": "Ancho del elemento multimedia en computadora",
           "info": "Los elementos multimedia se optimizan automáticamente para dispositivos móviles.",
