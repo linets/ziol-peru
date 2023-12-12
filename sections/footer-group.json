@@ -5,7 +5,7 @@
     "footer": {
       "type": "footer",
       "blocks": {
-        "c2f4ba2f-4ad6-482e-ac08-5251f847a13f": {
+        "0e094103-7e11-40bb-9197-dca786fdf460": {
           "type": "link_list",
           "settings": {
             "heading": "",
@@ -14,12 +14,12 @@
         }
       },
       "block_order": [
-        "c2f4ba2f-4ad6-482e-ac08-5251f847a13f"
+        "0e094103-7e11-40bb-9197-dca786fdf460"
       ],
       "settings": {
         "color_scheme": "scheme-1",
         "newsletter_enable": true,
-        "newsletter_heading": "¡SUSCRÍBETE A NUESTROS NEWSLETTERS!<br>OBTÉN UN<strong>10% OFF<\/strong>EN TU COMPRA ONLINE.",
+        "newsletter_heading": "Subscribe to our emails",
         "enable_follow_on_shop": true,
         "show_social": true,
         "enable_country_selector": false,
