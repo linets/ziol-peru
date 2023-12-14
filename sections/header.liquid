@@ -35,11 +35,13 @@
     .scrolled-past-header .header__heading-logo-wrapper {
       width: 75%;
     }
-    .scrolled-past-header .header__icon {
-      display: none !important
-    }
-    .scrolled-past-header .header {
-      display: flex !important;
+    @media(min-width: 1000px) {
+      .scrolled-past-header .header__icon {
+        display: none !important
+      }
+      .scrolled-past-header .header {
+        display: flex !important;
+      }
     }
   {%- endif -%}
 
