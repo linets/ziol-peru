@@ -42,6 +42,12 @@
 }
 
 @media screen and (min-width: 750px) {
+
+  .collection.page-width,
+  .facets-wrapper.page-width {
+    max-width: 1600px !important;
+  }
+
   .collection .loading-overlay {
     padding-left: 5rem;
     padding-right: 5rem;
@@ -58,12 +64,13 @@
 }
 
 @media screen and (max-width: 989px) {
+
   .collection .slider--tablet.product-grid {
     scroll-padding-left: 1.5rem;
   }
 }
 
-.collection__description > * {
+.collection__description>* {
   margin: 0;
 }
 
