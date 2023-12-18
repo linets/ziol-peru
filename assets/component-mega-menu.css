@@ -73,7 +73,6 @@
 
 .mega-menu__link:hover,
 .mega-menu__link--active {
-  color: #e61d72;
   text-decoration: underline;
 }
 
