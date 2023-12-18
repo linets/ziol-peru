@@ -46,9 +46,6 @@
               class="facets__wrapper"
             {% endif %}
           >
-            <div class="custom-collection-title">
-              <p>{{collection.title}}</p>
-            </div>
             {%- if filter_type == 'horizontal' and results.filters != empty -%}
               <h2 class="facets__heading caption-large text-body" id="verticalTitle" tabindex="-1">
                 {{ 'products.facets.filter_by_label' | t }}

@@ -44,8 +44,9 @@
 @media screen and (min-width: 750px) {
 
   .collection.page-width,
-  .facets-wrapper.page-width {
-    max-width: 1600px !important;
+  .facets-vertical.page-width,
+  .facets-vertical-sort.page-width {
+    max-width: 1300px !important;
   }
 
   .collection .loading-overlay {
