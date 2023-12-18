@@ -93,7 +93,7 @@
 
 {%- style -%}
   .header {
-    padding: {{ section.settings.padding_top | times: 0.5 | round: 0 }}px 3rem {{ section.settings.padding_bottom | times: 0.5 | round: 0 }}px 3rem;
+    padding: 10px 3rem 0 3rem !important;
   }
 
   .section-header {
@@ -110,7 +110,6 @@
   @media screen and (min-width: 990px) {
     .header {
       padding-top: {{ section.settings.padding_top }}px;
-      padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
 {%- endstyle -%}
@@ -348,6 +347,21 @@
 {%- if settings.cart_type == "notification" -%}
   {%- render 'cart-notification', color_scheme: section.settings.color_scheme, desktop_menu_type: section.settings.menu_type_desktop -%}
 {%- endif -%}
+
+<script>
+   let items = document.querySelector(".header__inline-menu").querySelectorAll("details");
+    items.forEach(item => {
+      item.addEventListener("mouseover", () => {
+        item.setAttribute("open", true);
+        item.querySelector("ul").addEventListener("mouseleave", () => {
+          item.removeAttribute("open");
+        });
+      item.addEventListener("mouseleave", () => {
+        item.removeAttribute("open");
+      });
+    });
+    });
+</script>
 
 {% javascript %}
   class StickyHeader extends HTMLElement {
