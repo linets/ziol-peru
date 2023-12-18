@@ -11,15 +11,15 @@
 .pagination__list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: end;
 }
 
-.pagination__list > li {
+.pagination__list>li {
   flex: 1 0 4.4rem;
   max-width: 4.4rem;
 }
 
-.pagination__list > li:not(:last-child) {
+.pagination__list>li:not(:last-child) {
   margin-right: 1rem;
 }
 
