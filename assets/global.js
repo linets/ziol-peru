@@ -620,9 +620,9 @@ class SliderComponent extends HTMLElement {
     this.pageTotalElement = this.querySelector('.slider-counter--total');
     this.prevButton = this.querySelector('button[name="previous"]');
     this.nextButton = this.querySelector('button[name="next"]');
-
     if (!this.slider || !this.nextButton) return;
 
+    console.log("SliderComponent", this.nextButton, this.slider)
     this.initPages();
     const resizeObserver = new ResizeObserver((entries) => this.initPages());
     resizeObserver.observe(this.slider);
@@ -716,7 +716,7 @@ class SlideshowComponent extends SliderComponent {
     super();
     this.sliderControlWrapper = this.querySelector('.slider-buttons');
     this.enableSliderLooping = true;
-
+    console.log("sliderControlWrapper", this.sliderControlWrapper)
     if (!this.sliderControlWrapper) return;
 
     this.sliderFirstItemNode = this.slider.querySelector('.slideshow__slide');

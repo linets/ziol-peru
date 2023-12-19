@@ -341,7 +341,8 @@ a.product__text {
 
 .product__title {
   word-break: break-word;
-  margin-bottom: 1.5rem;
+  margin-bottom: 5px;
+  padding-bottom: 5px;
 }
 
 .product__title>* {
@@ -1641,4 +1642,100 @@ a.product__text {
   .recipient-form>input[type='checkbox']:checked+label .icon-checkmark {
     border: none;
   }
+}
+
+.product__title h1 {
+  font-size: 22px;
+  line-height: 28px;
+  font-weight: 500;
+  color: #333333;
+}
+
+.product__sku .visually-hidden {
+  position: relative !important;
+}
+
+.product__sku {
+  font-size: 13px;
+  color: #212529;
+  line-height: 24px;
+  margin: 0 0 10px 0;
+}
+
+div[id^="price-template"] {
+  margin: 0;
+}
+
+.price-item--regular {
+  font-size: 17px !important;
+  line-height: 17px !important;
+  color: #999999 !important;
+}
+
+.price__badge-sale {
+  background: #3C3C3B1D;
+  color: #000;
+  height: 27px;
+  border-radius: 0;
+  font-size: 18px;
+  padding: 0 10px;
+  display: block;
+  margin-bottom: 0 !important;
+  line-height: 24px;
+}
+
+.price__container {
+  margin-bottom: 0 !important;
+}
+
+.price.price--large {
+  display: flex;
+  align-items: center;
+}
+
+.product_quantity_button_container {
+  display: flex;
+  gap: 20px;
+}
+
+.product-form__quantity {
+  flex: initial;
+}
+
+.button_quantity_container {
+  width: 100%;
+}
+
+.button_quantity_container .product-form {
+  margin: 0;
+}
+
+.quantity__label {
+  display: none;
+}
+
+.product-form__submit {
+  background: #fff !important;
+  color: #3c3c3b;
+  font-size: 18px;
+  width: auto;
+}
+
+.quantity button[name="minus"] {
+  border-right: 1px solid;
+}
+
+.quantity button[name="plus"] {
+  border-left: 1px solid;
+}
+
+.page-width .product--thumbnail--left.product--thumbnail_slider .slider-buttons {
+  display: flex !important;
+}
+
+.slider-mobile-gutter .slider-buttons.quick-add-hidden .slider-button.slider-button--prev,
+.slider-mobile-gutter .slider-buttons.quick-add-hidden .slider-button.slider-button--prev .icon-caret,
+.slider-mobile-gutter .slider-buttons.quick-add-hidden .slider-button.slider-button--next,
+.slider-mobile-gutter .slider-buttons.quick-add-hidden .slider-button.slider-button--next .icon-caret {
+  display: flex !important;
 }
