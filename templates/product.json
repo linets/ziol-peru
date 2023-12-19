@@ -8,6 +8,12 @@
           "settings": {
           }
         },
+        "0cbc968b-4a95-408a-ae28-b9def6d56afd": {
+          "type": "sku",
+          "settings": {
+            "text_style": "body"
+          }
+        },
         "caption": {
           "type": "text",
           "settings": {
@@ -46,8 +52,8 @@
         "collapsible-row-0": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Materials",
-            "icon": "leather",
+            "heading": "DESCUBRE TU PRODUCTO",
+            "icon": "none",
             "content": "",
             "page": ""
           }
@@ -55,39 +61,16 @@
         "collapsible-row-1": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Shipping & Returns",
-            "icon": "truck",
+            "heading": "DETALLES",
+            "icon": "none",
             "content": "",
             "page": ""
-          }
-        },
-        "collapsible-row-2": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Dimensions",
-            "icon": "ruler",
-            "content": "",
-            "page": ""
-          }
-        },
-        "collapsible-row-3": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Care Instructions",
-            "icon": "heart",
-            "content": "",
-            "page": ""
-          }
-        },
-        "share": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
           }
         }
       },
       "block_order": [
         "title",
+        "0cbc968b-4a95-408a-ae28-b9def6d56afd",
         "caption",
         "price",
         "variant_picker",
@@ -95,10 +78,7 @@
         "buy_buttons",
         "description",
         "collapsible-row-0",
-        "collapsible-row-1",
-        "collapsible-row-2",
-        "collapsible-row-3",
-        "share"
+        "collapsible-row-1"
       ],
       "settings": {
         "enable_sticky_info": true,
