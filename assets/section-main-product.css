@@ -1729,13 +1729,6 @@ div[id^="price-template"] {
   border-left: 1px solid;
 }
 
-.page-width .product--thumbnail--left.product--thumbnail_slider .slider-buttons {
-  display: flex !important;
-}
-
-.slider-mobile-gutter .slider-buttons.quick-add-hidden .slider-button.slider-button--prev,
-.slider-mobile-gutter .slider-buttons.quick-add-hidden .slider-button.slider-button--prev .icon-caret,
-.slider-mobile-gutter .slider-buttons.quick-add-hidden .slider-button.slider-button--next,
-.slider-mobile-gutter .slider-buttons.quick-add-hidden .slider-button.slider-button--next .icon-caret {
-  display: flex !important;
+.related-products__heading {
+  text-align: center;
 }
