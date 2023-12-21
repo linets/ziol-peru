@@ -7,6 +7,14 @@
   top: var(--inputs-border-width);
 }
 
+.field {
+  border-bottom: 1px solid red !important;
+  border-top: none !important;
+  border-left: none !important;
+  border-right: none !important;
+}
+
+
 .reset__button {
   right: calc(var(--inputs-border-width) + 4.4rem);
   top: var(--inputs-border-width);

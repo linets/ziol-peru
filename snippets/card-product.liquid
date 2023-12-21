@@ -36,6 +36,14 @@
     endif
   -%}
   <div class="card-wrapper product-card-wrapper underline-links-hover" data-product-id="{{card_product.id}}">
+    {% if card_product.metafields.custom.image_tag.value != blank %}
+      {% if card_product.metafields.custom.file_tag.value != blank %}
+        <img src="{{card_product.metafields.custom.file_tag.value | img_url: 'master'}}" class="badge-image" >
+      {% endif %}
+    {% endif %}
+    {%- if card_product.tags contains "tag_new" -%}
+      <span class="custom-tag">Nuevo</span>
+    {%- endif -%}
     <div
       class="
         card card--{{ settings.card_style }}
