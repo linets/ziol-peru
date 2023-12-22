@@ -3597,3 +3597,23 @@ details-disclosure>details {
   color: #333333;
   font-weight: 300;
 }
+
+@media (max-width: 768px) {
+  .collection__title .title {
+    font-size: 20px;
+    text-align: center;
+    color: #000000;
+    font-weight: bold;
+    margin: 27px 0 0;
+    padding-bottom: 25px;
+  }
+
+  .title-wrapper-with-link .title {
+    font-size: 20px;
+    text-align: center;
+    color: #000000;
+    font-weight: bold;
+    margin: 27px 0 0;
+    padding-bottom: 25px;
+  }
+}
