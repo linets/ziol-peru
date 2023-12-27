@@ -375,12 +375,12 @@ slider-component.slider-component-full-width {
 
 .slider-button--next .icon {
   transform: rotate(-90deg);
-  display: none;
+  /* display: none; */
 }
 
 .slider-button--prev .icon {
   transform: rotate(90deg);
-  display: none;
+  /* display: none; */
 }
 
 .slider-button--next:not([disabled]):hover .icon {
