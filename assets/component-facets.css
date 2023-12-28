@@ -1204,3 +1204,40 @@ input.mobile-facets__checkbox {
     padding: 0 1rem 1rem;
   }
 }
+
+.list-menu_color {
+  width: 30px;
+  height: 30px;
+  background: #fff;
+  box-shadow: 0 0 0 0.1rem rgba(var(--color-foreground), 0.2);
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.list-menu__item--Color {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.list-menu__item--Color>label {
+  transition: all ease .3s;
+}
+
+.list-menu__item--Color .filter-type-check {
+  display: none;
+}
+
+.list-menu__item--active>label {
+  box-shadow: 0 0 0 0.2rem rgba(var(--color-foreground), 0.4);
+}
+
+.list-menu__item--active {
+  box-shadow: 0 0 0 0.2rem rgba(var(--color-foreground), 0.4);
+}
+
+@media screen and (max-width: 1000px) {
+  .list-menu__item--Color {
+    padding: 1.2rem 2.6rem;
+  }
+}
