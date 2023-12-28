@@ -1232,12 +1232,12 @@ input.mobile-facets__checkbox {
   box-shadow: 0 0 0 0.2rem rgba(var(--color-foreground), 0.4);
 }
 
-.list-menu__item--active {
-  box-shadow: 0 0 0 0.2rem rgba(var(--color-foreground), 0.4);
-}
-
 @media screen and (max-width: 1000px) {
   .list-menu__item--Color {
     padding: 1.2rem 2.6rem;
+  }
+
+  .list-menu__item--active {
+    box-shadow: 0 0 0 0.2rem rgba(var(--color-foreground), 0.4);
   }
 }
