@@ -4,14 +4,19 @@
   margin: 0 0 1rem;
   z-index: 1;
   width: 100%;
-  bottom: 70px;
+  bottom: 90px;
+}
+
+@media(max-width:767px) {
+  .quick-add {
+    position: relative;
+    bottom: 0;
+  }
 }
 
 .card__content {
   position: relative !important;
 }
-
-
 
 .card--card .quick-add {
   margin: 0 1.3rem 1rem;

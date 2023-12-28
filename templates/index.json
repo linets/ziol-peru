@@ -310,7 +310,8 @@
         "7f41631c-b9a8-4930-b18f-ab768cd27ca3"
       ],
       "custom_css": [
-        ".multicolumn {background: #f5f5f5;}"
+        ".multicolumn {background: #f5f5f5;}",
+        " .multicolumn-card-spacing {width: 135px; height: 135px;}"
       ],
       "settings": {
         "force_full_width": false,
