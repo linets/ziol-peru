@@ -196,7 +196,6 @@ fieldset.product-form__input .form__label {
 .product-form__input input[type='radio']+label {
   border: var(--variant-pills-border-width) solid rgba(var(--color-foreground), var(--variant-pills-border-opacity));
   background-color: rgb(var(--color-background));
-  color: rgba(var(--color-foreground));
   border-radius: var(--variant-pills-radius);
   color: rgb(var(--color-foreground));
   display: inline-block;
@@ -209,6 +208,11 @@ fieldset.product-form__input .form__label {
   transition: border var(--duration-short) ease;
   cursor: pointer;
   position: relative;
+}
+
+.product-form__input input[type='radio']+label.label-color {
+  border-radius: 0 0 0 0;
+  padding: 5px;
 }
 
 .product-form__input input[type='radio']+label:before {
@@ -230,6 +234,13 @@ fieldset.product-form__input .form__label {
 .product-form__input input[type='radio']:checked+label {
   background-color: rgb(var(--color-foreground));
   color: rgb(var(--color-background));
+}
+
+.product-form__input input[type='radio']:checked+label.label-color {
+  background-color: transparent;
+  -webkit-box-shadow: 2px 3px 18px -5px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 2px 3px 18px -5px rgba(0, 0, 0, 0.75);
+  box-shadow: 2px 3px 18px -5px rgba(0, 0, 0, 0.75);
 }
 
 .product-form__input input[type='radio']:not(.disabled)+label>.visually-hidden {

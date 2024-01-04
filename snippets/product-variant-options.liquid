@@ -59,8 +59,18 @@
         class="disabled"
       {% endif %}
     >
-    <label for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}">
-      {{ value -}}
+    <label for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}" class="{%- if option.name == 'Color' -%}label-color{%- endif -%}">
+      {% if option.name == "Color" %}
+        {% for variant in product.variants %}
+          {% if variant.option1 == value %}
+            <img src="{{ variant.featured_image.src | img_url: '60x' }}" />
+            {% break %}
+          {% endif %}
+        {% endfor %}
+       {% else %}
+         {{ value -}}
+      {% endif %}
+     
       <span class="visually-hidden">{{ 'products.product.variant_sold_out_or_unavailable' | t }}</span>
     </label>
   {%- elsif block.settings.picker_type == 'dropdown' -%}
