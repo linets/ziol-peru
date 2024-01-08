@@ -136,6 +136,15 @@
     "content_for_index": [
 
     ],
+    "blocks": {
+      "3162008616520556380": {
+        "type": "shopify:\/\/apps\/retail-rocket-personalization\/blocks\/main-code\/eb06115a-3169-4b5b-a921-16aac205bb7d",
+        "disabled": false,
+        "settings": {
+          "rrPartnerId": "659535f486274315dbabf620"
+        }
+      }
+    },
     "color_schemes": {
       "background-1": {
         "settings": {
