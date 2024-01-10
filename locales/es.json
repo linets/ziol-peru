@@ -525,7 +525,8 @@
     "checkout": {
       "contact": {
         "company_label": "RUT",
-        "optional_company_label": "RUT"
+        "optional_company_label": "RUT",
+        "city_label": "Comuna"
       }
     }
   }
