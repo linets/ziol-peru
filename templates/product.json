@@ -97,6 +97,24 @@
         "padding_bottom": 12
       }
     },
+    "17049861277899ad1c": {
+      "type": "apps",
+      "blocks": {
+        "retail_rocket_personalization_markups_Fn8wq4": {
+          "type": "shopify:\/\/apps\/retail-rocket-personalization\/blocks\/markups\/eb06115a-3169-4b5b-a921-16aac205bb7d",
+          "settings": {
+            "rrMarkupCode": "65954f8a4d342b6d85f8bbb3",
+            "rrEmptyMarkupCode": ""
+          }
+        }
+      },
+      "block_order": [
+        "retail_rocket_personalization_markups_Fn8wq4"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
     "related-products": {
       "type": "related-products",
       "settings": {
@@ -118,6 +136,7 @@
   },
   "order": [
     "main",
+    "17049861277899ad1c",
     "related-products"
   ]
 }
