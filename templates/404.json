@@ -1,10 +1,31 @@
 {
   "sections": {
     "main": {
-      "type": "main-404"
+      "type": "main-404",
+      "settings": {
+      }
+    },
+    "1704986449d9f78599": {
+      "type": "apps",
+      "blocks": {
+        "retail_rocket_personalization_markups_G6gzwF": {
+          "type": "shopify:\/\/apps\/retail-rocket-personalization\/blocks\/markups\/eb06115a-3169-4b5b-a921-16aac205bb7d",
+          "settings": {
+            "rrMarkupCode": "659550139b15095e98a65932",
+            "rrEmptyMarkupCode": ""
+          }
+        }
+      },
+      "block_order": [
+        "retail_rocket_personalization_markups_G6gzwF"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "1704986449d9f78599"
   ]
 }

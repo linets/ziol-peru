@@ -18,9 +18,28 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "1704986335bdd41c96": {
+      "type": "apps",
+      "blocks": {
+        "retail_rocket_personalization_markups_9BMMFR": {
+          "type": "shopify:\/\/apps\/retail-rocket-personalization\/blocks\/markups\/eb06115a-3169-4b5b-a921-16aac205bb7d",
+          "settings": {
+            "rrMarkupCode": "65954fd79b15095e98a6592c",
+            "rrEmptyMarkupCode": "65954fb59b15095e98a6592b"
+          }
+        }
+      },
+      "block_order": [
+        "retail_rocket_personalization_markups_9BMMFR"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "1704986335bdd41c96"
   ]
 }
