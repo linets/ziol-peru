@@ -142,6 +142,24 @@
         "padding_bottom": 36
       }
     },
+    "17049857032c5ebfc6": {
+      "type": "apps",
+      "blocks": {
+        "retail_rocket_personalization_markups_9d6n4Y": {
+          "type": "shopify:\/\/apps\/retail-rocket-personalization\/blocks\/markups\/eb06115a-3169-4b5b-a921-16aac205bb7d",
+          "settings": {
+            "rrMarkupCode": "659548da9b15095e98a658f2",
+            "rrEmptyMarkupCode": ""
+          }
+        }
+      },
+      "block_order": [
+        "retail_rocket_personalization_markups_9d6n4Y"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
     "b18a84ed-5707-48d2-b87d-d05620258745": {
       "type": "multicolumn",
       "blocks": {
@@ -311,7 +329,7 @@
       ],
       "custom_css": [
         ".multicolumn {background: #f5f5f5;}",
-        " .multicolumn-card-spacing {width: 135px; height: 135px;}"
+        ".multicolumn-card-spacing {width: 135px; height: 135px;}"
       ],
       "settings": {
         "force_full_width": false,
@@ -337,6 +355,7 @@
     "608f3ae5-b1cf-4082-919f-3ead2712d478",
     "featured_collection",
     "fd8003f0-fa91-4c7d-8f99-2bb233dd3615",
+    "17049857032c5ebfc6",
     "b18a84ed-5707-48d2-b87d-d05620258745",
     "241f4691-2553-4f6e-bc31-ad64aa132e6b",
     "dc802415-49b3-4130-a1bb-b4143927a0d4",
