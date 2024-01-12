@@ -133,6 +133,11 @@
   grid-template-rows: minmax(0, auto) max-content minmax(0, auto);
 }
 
+.variant-title {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
 .card__information {
   grid-row-start: 2;
   padding: 1.3rem 1rem;

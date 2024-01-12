@@ -147,14 +147,54 @@
                 {%- if forloop.index > 2 -%}
                   {%- assign lazy_load = true -%}
                 {%- endif -%}
-                <li
-                  class="grid__item{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
-                  {% if settings.animations_reveal_on_scroll %}
-                    data-cascade
-                    style="--animation-order: {{ forloop.index }};"
-                  {% endif %}
-                >
-                  {% render 'card-product',
+
+                {% if product.variants.size > 1 %}
+                  {% for option in product.options_with_values %}
+                        {% if option.name == "Color" %}
+                          {% for value in option.values %}
+                            {% assign color = value %}
+                            {% for variant in product.variants %}
+                              {% if variant.option1 == color %}
+                              <li
+                                class="grid__item{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+                                {% if settings.animations_reveal_on_scroll %}
+                                  data-cascade
+                                  style="--animation-order: {{ forloop.index }};"
+                                {% endif %}
+                              >
+                                  {% render 'card-product',
+                                      card_product: product,
+                                      media_aspect_ratio: section.settings.image_ratio,
+                                      image_shape: section.settings.image_shape,
+                                      show_secondary_image: section.settings.show_secondary_image,
+                                      show_vendor: section.settings.show_vendor,
+                                      show_rating: section.settings.show_rating,
+                                      lazy_load: lazy_load,
+                                      show_quick_add: section.settings.enable_quick_add,
+                                      section_id: section.id
+                                      variant_card: true,
+                                      variant_title: variant.option1,
+                                      variant_price: variant.price,
+                                      variant_media: variant.featured_image
+                                      variant_id: variant.id
+                                  %}
+                              </li>
+                                {% break %}
+                              {% endif %}
+                            {% endfor %}
+                          {% endfor %}
+                        {% endif %}
+                  {% endfor %}
+                  
+                  {% else %}
+                  <li
+                    class="grid__item{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+                    {% if settings.animations_reveal_on_scroll %}
+                      data-cascade
+                      style="--animation-order: {{ forloop.index }};"
+                    {% endif %}
+                  >
+                    {% render 'card-product',
                     card_product: product,
                     media_aspect_ratio: section.settings.image_ratio,
                     image_shape: section.settings.image_shape,
@@ -165,7 +205,11 @@
                     show_quick_add: section.settings.enable_quick_add,
                     section_id: section.id
                   %}
-                </li>
+                  
+                  </li>
+                {% endif %}
+
+                
               {%- endfor -%}
             </ul>
 
