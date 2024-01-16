@@ -338,65 +338,82 @@
   text-decoration: underline;
 }
 
-.Negro {
-  background: #000000;
+/* Estilos para .Negro y .negro */
+.Negro,
+.negro {
+  background: #000000 !important;
 }
 
-.Blanco {
-  background: #FFFFFF;
+.Blanco,
+.blanco {
+  background: #FFFFFF !important;
 }
 
-.Rojo {
-  background: #FF0000;
+.Rojo,
+.rojo {
+  background: #FF0000 !important;
 }
 
-.Verde {
-  background: #00FF00;
+.Verde,
+.verde {
+  background: #00FF00 !important;
 }
 
-.Azul {
-  background: #0000FF;
+.Azul,
+.azul {
+  background: #0000FF !important;
 }
 
-.Amarillo {
-  background: #FFFF00;
+.Amarillo,
+.amarillo {
+  background: #FFFF00 !important;
 }
 
-.Naranja {
-  background: #FFA500;
+.Naranja,
+.naranja {
+  background: #FFA500 !important;
 }
 
-.Morado {
-  background: #800080;
+.Morado,
+.morado {
+  background: #800080 !important;
 }
 
-.Rosa {
-  background: #FFC0CB;
+.Rosado,
+.rosado {
+  background: #FFC0CB !important;
 }
 
-.Gris {
-  background: #808080;
+.Gris,
+.gris {
+  background: #808080 !important;
 }
 
-.Marron {
-  background: #A52A2A;
+.Marron,
+.marron {
+  background: #A52A2A !important;
 }
 
-.Turquesa {
-  background: #40E0D0;
+.Turquesa,
+.turquesa {
+  background: #40E0D0 !important;
 }
 
-.VerdeLima {
-  background: #00FF00;
+.VerdeLima,
+.verde-lima {
+  background: #00FF00 !important;
 }
 
-.AzulCielo {
-  background: #87CEEB;
+.AzulCielo,
+.azul-cielo {
+  background: #87CEEB !important;
 }
 
-.GrisClaro {
-  background: #D3D3D3;
+.GrisClaro,
+.gris-claro {
+  background: #D3D3D3 !important;
 }
+
 
 .facets-layout-grid>* {
   align-items: flex-start;
