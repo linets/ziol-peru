@@ -338,6 +338,66 @@
   text-decoration: underline;
 }
 
+.negro {
+  background: #000000;
+}
+
+.blanco {
+  background: #FFFFFF;
+}
+
+.rojo {
+  background: #FF0000;
+}
+
+.verde {
+  background: #00FF00;
+}
+
+.azul {
+  background: #0000FF;
+}
+
+.amarillo {
+  background: #FFFF00;
+}
+
+.naranja {
+  background: #FFA500;
+}
+
+.morado {
+  background: #800080;
+}
+
+.rosa {
+  background: #FFC0CB;
+}
+
+.gris {
+  background: #808080;
+}
+
+.marron {
+  background: #A52A2A;
+}
+
+.turquesa {
+  background: #40E0D0;
+}
+
+.verde-lima {
+  background: #00FF00;
+}
+
+.azul-cielo {
+  background: #87CEEB;
+}
+
+.gris-claro {
+  background: #D3D3D3;
+}
+
 .facets-layout-grid>* {
   align-items: flex-start;
 }
