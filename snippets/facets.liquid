@@ -774,7 +774,7 @@
                                 {%- if filter.label == 'Color' -%}
                                   <label
                                     style="background: {{value.value}}"
-                                    class="list-menu_color {{value.value}} {% if value.active %} list-menu__item--active {% endif %}"
+                                    class="list-menu_color {{value.value | downcase | replace: ' ', '-' }} {% if value.active %} list-menu__item--active {% endif %}"
                                     for="Filter-{{ filter.param_name | escape }}-{{ forloop.index }}"
                                   >
                                     <input

@@ -442,6 +442,261 @@
   word-break: break-word;
 }
 
+
+.negro {
+  background-color: #000000;
+}
+
+.blanco {
+  background-color: #FFFFFF;
+}
+
+.gris {
+  background-color: #808080;
+}
+
+.gris-oscuro {
+  background-color: #808080;
+}
+
+.beige {
+  background-color: #F5F5DC;
+}
+
+.beige-oscuro {
+  background-color: #F5F5DC;
+}
+
+.camel {
+  background-color: #A52A2A;
+}
+
+.taupe {
+  background-color: #A52A2A;
+}
+
+.taupe-oscuro {
+  background-color: #A52A2A;
+}
+
+.cafe {
+  background-color: #A52A2A;
+}
+
+.cafe-medio {
+  background-color: #A52A2A;
+}
+
+.cafe-oscuro {
+  background-color: #A52A2A;
+}
+
+.damasco {
+  background-color: #FFA07A;
+}
+
+.naranjo-claro {
+  background-color: #FFA500;
+}
+
+.morado-claro {
+  background-color: #800080;
+}
+
+.azul-electrico {
+  background-color: #0000FF;
+}
+
+.denim {
+  background-color: #0000FF;
+}
+
+.denim-claro {
+  background-color: #0000FF;
+}
+
+.azul {
+  background-color: #0000FF;
+}
+
+.petroleo {
+  background-color: #008080;
+}
+
+.celeste {
+  background-color: #87CEEB;
+}
+
+.turquesa {
+  background-color: #40E0D0;
+}
+
+.esmeralda {
+  background-color: #008000;
+}
+
+.petroleo-oscuro {
+  background-color: #006666;
+}
+
+.lila {
+  background-color: #C8A2C8;
+}
+
+.morado {
+  background-color: #800080;
+}
+
+.berry {
+  background-color: #800080;
+}
+
+.rosado-claro {
+  background-color: #FFC0CB;
+}
+
+.rosado {
+  background-color: #FFC0CB;
+}
+
+.khaki {
+  background-color: #F0E68C;
+}
+
+.verde-limon {
+  background-color: #00FF00;
+}
+
+.petroleo-claro {
+  background-color: #005A5A;
+}
+
+.verde-agua {
+  background-color: #7FFFD4;
+}
+
+.verde-claro {
+  background-color: #90EE90;
+}
+
+.verde {
+  background-color: #008000;
+}
+
+.verde-oliva {
+  background-color: #808000;
+}
+
+.rojo-tomate {
+  background-color: #FF6347;
+}
+
+.rojo {
+  background-color: #FF0000;
+}
+
+.oxido {
+  background-color: #8B4513;
+}
+
+.fucsia {
+  background-color: #FF00FF;
+}
+
+.coral {
+  background-color: #FF7F50;
+}
+
+.rojo-oscuro {
+  background-color: #A52A2A;
+}
+
+.burdeo {
+  background-color: #800000;
+}
+
+.cobre-oscuro {
+  background-color: #B87333;
+}
+
+.cobre {
+  background-color: #B87333;
+}
+
+.naranja {
+  background-color: #FF4500;
+}
+
+.mostaza {
+  background-color: #FFDB58;
+}
+
+.amarillo {
+  background-color: #FFFF00;
+}
+
+.dorado {
+  background-color: #FFD700;
+}
+
+.negro-beige {
+  background-color: #635147;
+}
+
+.blanco-crudo {
+  background-color: #F5F5F5;
+  /* Código de color para blanco crudo */
+}
+
+.rosa-viejo {
+  background-color: #C71585;
+  /* Código de color para rosa viejo */
+}
+
+.dorado-claro {
+  background-color: #FFD700;
+  /* Código de color para dorado claro */
+}
+
+.azul-oscuro {
+  background-color: #00008B;
+  /* Código de color para azul oscuro */
+}
+
+.plateado {
+  background-color: #C0C0C0;
+}
+
+.plateado-oscuro {
+  background-color: #A9A9A9;
+  /* Código de color para plateado oscuro */
+}
+
+.rosa-metalico {
+  background-color: #BC8F8F;
+  /* Código de color para rosa metálico */
+}
+
+.plateado-claro {
+  background-color: #C0C0C0;
+  /* Código de color para plateado claro */
+}
+
+.dorado-oscuro {
+  background-color: #B8860B;
+  /* Código de color para dorado oscuro */
+}
+
+.dorado-medio {
+  background-color: #DAA520;
+  /* Código de color para dorado medio */
+}
+
+.gris-claro {
+  background-color: #D3D3D3;
+  /* Código de color para gris claro */
+}
+
 /* Hover, active, and focus states */
 :is(.facets__label:hover, .facets__label.active, .facets__label:has(:focus-visible)) {
   color: rgba(var(--color-foreground), 1);
