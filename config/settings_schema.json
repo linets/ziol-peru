@@ -1470,7 +1470,7 @@
     "name": "Políticas",
     "settings": [
       {
-        "type": "text",
+        "type": "textarea",
         "id": "policy_text_devolution",
         "label": "Políticas de devolución",
         "default": "Puede cambiar o devolver en cualquier tienda Amphora del país. Dispone de 10 días para devolución a partir de la fecha en que este haya sido recibido el producto, presentando ticket de cambio o boleta. Es necesario que el producto esté sin uso, con todos sus accesorios y packaging original."
