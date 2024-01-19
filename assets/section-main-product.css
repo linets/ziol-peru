@@ -354,6 +354,7 @@ a.product__text {
   word-break: break-word;
   margin-bottom: 5px;
   padding-bottom: 5px;
+  text-transform: uppercase;
 }
 
 .product__title>* {

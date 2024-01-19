@@ -231,10 +231,18 @@
     document.querySelectorAll(".card-wrapper").forEach((item)=>{
       item.addEventListener("mouseover",()=>{
         const productId = item.getAttribute("data-product-id");
+        const variantId = item.getAttribute("data-variant-id");
+        if(variantId) {
+          document.querySelector(`.product-card-id-${productId}-${variantId}`).classList.add("show");
+        }
         document.querySelector(`.product-card-id-${productId}`).classList.add("show");
       })
       item.addEventListener("mouseout",()=>{
         const productId = item.getAttribute("data-product-id");
+        const variantId = item.getAttribute("data-variant-id");
+        if(variantId) {
+          document.querySelector(`.product-card-id-${productId}-${variantId}`).classList.remove("show");
+        }
         document.querySelector(`.product-card-id-${productId}`).classList.remove("show");
       })
     })
