@@ -54,7 +54,7 @@
           "settings": {
             "heading": "DESCUBRE TU PRODUCTO",
             "icon": "none",
-            "content": "",
+            "content": "<p>{{ product.metafields.custom.temporada.value }}<br\/>{{ product.metafields.custom.formato.value }}<\/p>",
             "page": ""
           }
         },
@@ -64,6 +64,15 @@
             "heading": "DETALLES",
             "icon": "none",
             "content": "",
+            "page": ""
+          }
+        },
+        "collapsible_tab_pFzr9M": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "DEVOLUCION",
+            "icon": "none",
+            "content": "<p>Puede cambiar o devolver en cualquier tienda Amphora del país. Dispone de 10 días para devolución a partir de la fecha en que este haya sido recibido el producto, presentando ticket de cambio o boleta. Es necesario que el producto esté sin uso, con todos sus accesorios y packaging original.<\/p>",
             "page": ""
           }
         }
@@ -78,7 +87,8 @@
         "buy_buttons",
         "description",
         "collapsible-row-0",
-        "collapsible-row-1"
+        "collapsible-row-1",
+        "collapsible_tab_pFzr9M"
       ],
       "settings": {
         "enable_sticky_info": true,
