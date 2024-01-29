@@ -526,7 +526,9 @@
       "contact": {
         "company_label": "RUT",
         "optional_company_label": "RUT",
-        "city_label": "Comuna"
+        "city_label": "Comuna",
+        "address2_label": "Código Postal",
+        "optional_address2_label": "Código Postal"
       },
       "field_errors": {
         "address_company_blank": "Introduce un número de RUT",
