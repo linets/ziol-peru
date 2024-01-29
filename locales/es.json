@@ -529,7 +529,8 @@
         "city_label": "Comuna"
       },
       "field_errors": {
-        "address_company_blank": "Introduce un número de RUT"
+        "address_company_blank": "Introduce un número de RUT",
+        "address_city_blank": "Introduce una comuna"
       }
     }
   }
