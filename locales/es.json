@@ -527,6 +527,9 @@
         "company_label": "RUT",
         "optional_company_label": "RUT",
         "city_label": "Comuna"
+      },
+      "field_errors": {
+        "address_company_blank": "Introduce un número de RUT"
       }
     }
   }
