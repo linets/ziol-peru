@@ -527,8 +527,6 @@
         "company_label": "RUT",
         "optional_company_label": "RUT",
         "city_label": "Comuna",
-        "address2_label": "Número de casa",
-        "optional_address2_label": "Número de casa",
         "zip_code_label": "Número de casa",
         "zip_code_placeholder": "Número de casa",
         "postal_code_label": "Número de casa",
