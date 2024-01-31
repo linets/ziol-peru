@@ -528,7 +528,13 @@
         "optional_company_label": "RUT",
         "city_label": "Comuna",
         "address2_label": "Número de casa",
-        "optional_address2_label": "Número de casa"
+        "optional_address2_label": "Número de casa",
+        "zip_code_label": "Número de casa",
+        "zip_code_placeholder": "Número de casa",
+        "postal_code_label": "Número de casa",
+        "postal_code_placeholder": "Número de casa",
+        "postcode_label": "Número de casa",
+        "postcode_placeholder": "Número de casa"
       },
       "field_errors": {
         "address_company_blank": "Introduce un número de RUT",
