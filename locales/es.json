@@ -527,12 +527,13 @@
         "company_label": "RUT",
         "optional_company_label": "RUT",
         "city_label": "Comuna",
-        "address2_label": "Código Postal",
-        "optional_address2_label": "Código Postal"
+        "address2_label": "Número de casa",
+        "optional_address2_label": "Número de casa"
       },
       "field_errors": {
         "address_company_blank": "Introduce un número de RUT",
-        "address_city_blank": "Introduce una comuna"
+        "address_city_blank": "Introduce una comuna",
+        "address_zip_blank": "Introduce un número de casa"
       }
     }
   }
