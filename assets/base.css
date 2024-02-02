@@ -2831,6 +2831,11 @@ details[open]>.header__submenu {
   padding-bottom: 22px;
 }
 
+.custom-link-header-item {
+  text-decoration: none;
+  color: #000;
+}
+
 
 .header__menu-item span {
   transition: text-decoration var(--duration-short) ease;
