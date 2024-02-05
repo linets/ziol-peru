@@ -38,11 +38,30 @@
             "color_scheme": "scheme-1",
             "text_alignment_mobile": "center"
           }
+        },
+        "slide_Ee9XGh": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ziol-test.png",
+            "heading": "",
+            "heading_size": "h2",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
         }
       },
       "block_order": [
         "6565bc0f-3939-488b-909e-7616f7e59da3",
-        "40d36210-86aa-4bbd-bbc6-78998c425c99"
+        "40d36210-86aa-4bbd-bbc6-78998c425c99",
+        "slide_Ee9XGh"
       ],
       "settings": {
         "layout": "full_bleed",
@@ -202,7 +221,6 @@
         "template--21506872606913__b18a84ed-5707-48d2-b87d-d05620258745-column-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/74ab1135-7a1e-495e-9821-c1b9da19c9c9-p-45423388457-1-8c7b9caa-83fa-4370-95b8-8c429c918f98.jpg",
             "title": "Bandolera Selene",
             "text": "",
             "link_label": "",
