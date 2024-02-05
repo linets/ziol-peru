@@ -64,7 +64,11 @@
       {% if option.name == "Color" %}
         {% for variant in product.variants %}
           {% if variant.option1 == value %}
-            <img src="{{ variant.featured_image.src | img_url: '60x' }}" />
+            {%- if variant.featured_image.src -%}
+              <img src="{{ variant.featured_image.src | img_url: '60x' }}" />
+            {%- else -%}
+              <span style="color: #000;">{{variant.title}}</span>
+            {%- endif -%}
             {% break %}
           {% endif %}
         {% endfor %}

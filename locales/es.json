@@ -60,7 +60,8 @@
   "newsletter": {
     "label": "Correo electrónico",
     "success": "Gracias por suscribirte",
-    "button_label": "Suscribirse"
+    "button_label": "Suscribirse",
+    "exists": "Ya te encuentras registrado"
   },
   "accessibility": {
     "skip_to_text": "Ir directamente al contenido",
