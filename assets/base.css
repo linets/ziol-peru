@@ -3567,7 +3567,7 @@ details-disclosure>details {
 }
 
 .grid.product-grid {
-  justify-content: center;
+  justify-content: start;
 }
 
 .force-full-width>.page-width {
