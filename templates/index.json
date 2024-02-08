@@ -38,30 +38,11 @@
             "color_scheme": "scheme-1",
             "text_alignment_mobile": "center"
           }
-        },
-        "slide_Ee9XGh": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Ziol-test.png",
-            "heading": "",
-            "heading_size": "h2",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-1",
-            "text_alignment_mobile": "center"
-          }
         }
       },
       "block_order": [
         "6565bc0f-3939-488b-909e-7616f7e59da3",
-        "40d36210-86aa-4bbd-bbc6-78998c425c99",
-        "slide_Ee9XGh"
+        "40d36210-86aa-4bbd-bbc6-78998c425c99"
       ],
       "settings": {
         "layout": "full_bleed",
