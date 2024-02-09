@@ -22,10 +22,36 @@
       {{ block.shopify_attributes }}
     >
       {%- for option in product.options_with_values -%}
-        <fieldset class="js product-form__input">
-          <legend class="form__label">{{ option.name }}</legend>
-          {% render 'product-variant-options', product: product, option: option, block: block %}
-        </fieldset>
+        {% if option.name == 'Color' and product.options.size == 1 %}
+          <fieldset class="js product-form__input">
+            <legend class="form__label">{{ option.name }}</legend>
+            {% if product.metafields.global.sku_relation != blank %}
+              {% assign SkuRelations = product.metafields.global.sku_relation | split: ',' %}
+              {% for SkuRelation in SkuRelations %}
+                {% for products1 in collections.all.products %}
+                  {% if products1.selected_or_first_available_variant.sku == SkuRelation %}
+                    <a class="link" href="{{ products1.url }}">
+                      {% if product.selected_or_first_available_variant.sku == SkuRelation %}
+                        {% assign activo = 'Active' %}
+                      {% else %}
+                        {% assign activo = '' %}
+                      {% endif %}
+                      <img
+                        class="relations-sku {{ activo }}"
+                        src="{{ products1.featured_image | product_img_url: 'small' }}"
+                      >
+                    </a>
+                  {% endif %}
+                {% endfor %}
+              {% endfor %}
+            {% endif %}
+          </fieldset>
+        {% else %}
+          <fieldset class="js product-form__input">
+            <legend class="form__label">{{ option.name }}</legend>
+            {% render 'product-variant-options', product: product, option: option, block: block %}
+          </fieldset>
+        {% endif %}
       {%- endfor -%}
       <script type="application/json">
         {{ product.variants | json }}
@@ -45,7 +71,6 @@
       {%- for option in product.options_with_values -%}
         <div class="product-form__input product-form__input--dropdown">
           <label class="form__label" for="Option-{{ section.id }}-{{ forloop.index0 }}">
-            
             {{ option.name }}
           </label>
           <div class="select">

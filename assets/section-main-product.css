@@ -1,3 +1,27 @@
+.relations-sku{
+    display: inline;
+    background-color: transparent;
+    border: black;
+    border: var(--variant-pills-border-width) solid rgba(var(--color-foreground),var(--variant-pills-border-opacity));
+    height: 70px;
+    margin-left: 5px;
+    text-decoration: none;
+}
+.Active{
+  -webkit-box-shadow: 2px 3px 18px -5px rgba(0,0,0,.75);
+    -moz-box-shadow: 2px 3px 18px -5px rgba(0,0,0,.75);
+    box-shadow: 2px 3px 18px -5px #000000bf;
+}
+.relations-sku:hover {
+  -webkit-box-shadow: 2px 3px 18px -5px rgba(0,0,0,.75);
+    -moz-box-shadow: 2px 3px 18px -5px rgba(0,0,0,.75);
+    box-shadow: 2px 3px 18px -5px #000000bf;
+}
+
+.link{
+  text-decoration: none;
+}
+
 .product {
   margin: 0;
 }
