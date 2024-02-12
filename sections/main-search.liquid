@@ -3,7 +3,6 @@
 {{ 'component-price.css' | asset_url | stylesheet_tag }}
 {{ 'component-search.css' | asset_url | stylesheet_tag }}
 
-
 {%- if section.settings.enable_filtering or section.settings.enable_sorting -%}
   {{ 'component-facets.css' | asset_url | stylesheet_tag }}
   <script src="{{ 'facets.js' | asset_url }}" defer="defer"></script>
@@ -15,8 +14,8 @@
 
 {{ 'quick-add.css' | asset_url | stylesheet_tag }}
 
-
 <script src="{{ 'main-search.js' | asset_url }}" defer="defer"></script>
+<script src="{{ 'product-form.js' | asset_url }}" defer="defer"></script>
 
 <style>
   .template-search__header {
@@ -36,6 +35,10 @@
     padding-bottom: 18rem;
   }
 
+   .card-wrapper:hover .quick-add__submit{
+   display: block !important;
+  }
+
   @media screen and (min-width: 750px) {
     .template-search__header {
       margin-bottom: 5rem;
@@ -45,11 +48,6 @@
   .search__button .icon {
     height: 1.8rem;
   }
-
-  .card-wrapper:hover .quick-add__submit{
-   display: block !important;
-  }
-
 </style>
 
 {%- liquid
@@ -274,73 +272,25 @@
                     {%- assign lazy_load = true -%}
                   {%- endif -%}
 
-                  {%- if item.object_type == "product" -%}
-                    {%- capture product_settings -%}{%- if section.settings.product_show_vendor -%}vendor,{%- endif -%}title,price{%- endcapture -%}
-                    {%- if item.variants.size > 1 -%}
-                      
-                      {% for option in item.options_with_values %}
-                            {% if option.name == "Color" %}
-                              {% for value in option.values %}
-                                {% assign color = value %}
-                                {% for variant in item.variants %}
-                                  {% if variant.option1 == color %}
-                                      <li class="grid__item{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
-                                        {% if settings.animations_reveal_on_scroll %}
-                                          data-cascade
-                                        {% endif %}
-                                      >
-                                        {% render 'card-product',
-                                          card_product: item,
-                                          media_aspect_ratio: section.settings.image_ratio,
-                                          image_shape: section.settings.image_shape,
-                                          show_secondary_image: section.settings.show_secondary_image,
-                                          show_vendor: section.settings.show_vendor,
-                                          show_rating: section.settings.show_rating,
-                                          lazy_load: lazy_load,
-                                          show_quick_add: true,
-                                          section_id: section.id
-                                          variant_card: true,
-                                          variant_title: variant.option1,
-                                          variant_price: variant.price,
-                                          variant_media: variant.featured_image
-                                          variant_id: variant.id
-                                        %}
-                                      </li>
-                                    {% break %}
-                                  {% endif %}
-                                {% endfor %}
-                              {% endfor %}
-                            {% endif %}
-                        {% endfor %}
-                    
-                      {%- else -%}
-                      <li class="grid__item{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
-                        {% if settings.animations_reveal_on_scroll %}
-                          data-cascade
-                        {% endif %}
-                      >
-                      {% render 'card-product',
-                          card_product: item,
-                          media_aspect_ratio: section.settings.image_ratio,
-                          image_shape: section.settings.image_shape,
-                          show_quick_add: true,
-                          show_secondary_image: section.settings.show_secondary_image,
-                          show_vendor: section.settings.show_vendor,
-                          show_rating: section.settings.show_rating,
-                          lazy_load: lazy_load
-                      %}
-                    </li>
-                    {%- endif -%}
-                    
-                        
-                  {%- endif -%}
-                  {% comment %} <li
+                  <li
                     class="grid__item{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
                     {% if settings.animations_reveal_on_scroll %}
                       data-cascade
                     {% endif %}
                   >
                     {%- case item.object_type -%}
+                      {%- when 'product' -%}
+                        {%- capture product_settings -%}{%- if section.settings.product_show_vendor -%}vendor,{%- endif -%}title,price{%- endcapture -%}
+                        {% render 'card-product',
+                          card_product: item,
+                          media_aspect_ratio: section.settings.image_ratio,
+                          image_shape: section.settings.image_shape,
+                          show_secondary_image: section.settings.show_secondary_image,
+                          show_vendor: section.settings.show_vendor,
+                          show_rating: section.settings.show_rating,
+                          lazy_load: lazy_load,
+                          show_quick_add: true
+                        %}
                       {%- when 'article' -%}
                         {% render 'article-card',
                           article: item,
@@ -374,7 +324,7 @@
                           </div>
                         </div>
                     {%- endcase -%}
-                  </li> {% endcomment %}
+                  </li>
                 {%- endfor -%}
               </ul>
               {%- if paginate.pages > 1 -%}
@@ -391,7 +341,7 @@
   {% render 'mask-arch' %}
 {%- endif -%}
 
-<script src="{{ 'product-form.js' | asset_url }}" defer="defer"></script>
+
 
 {% schema %}
 {
