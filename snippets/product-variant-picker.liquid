@@ -32,17 +32,17 @@
 
               {% for product_similar in collections[product.collections[0].handle].all_products %}
                 {% if product_similar.metafields.global.style.value == style %}
-                  {% if product_similar.available %}
+                 
                     <a class="link" href="{{ product_similar.url }}">
-                  {% endif %}
+                 
                     <img
-                        class="relations-sku {% if product.handle == product_similar.handle %}active{% endif %} {% unless product_similar.available %} not-available {% endunless %}"
+                        class="relations-sku {% if product.handle == product_similar.handle %}active{% endif %}"
                         src="{{ product_similar.featured_image | product_img_url: 'small' }}"
                       >
-                    {% if product_similar.available %}
+                    
                     </a>
                   {% endif %}
-                {% endif %}
+                
               {% endfor %}
             {% endif %}
           </fieldset>
