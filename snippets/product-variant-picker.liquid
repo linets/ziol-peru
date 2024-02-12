@@ -21,28 +21,28 @@
       {% endif %}
       {{ block.shopify_attributes }}
     >
+
       {%- for option in product.options_with_values -%}
         {% if option.name == 'Color' and product.options.size == 1 %}
           <fieldset class="js product-form__input">
             <legend class="form__label">{{ option.name }}</legend>
             {% if product.metafields.global.sku_relation != blank %}
-              {% assign SkuRelations = product.metafields.global.sku_relation | split: ',' %}
-              {% for SkuRelation in SkuRelations %}
-                {% for products1 in collections.all.products %}
-                  {% if products1.selected_or_first_available_variant.sku == SkuRelation %}
-                    <a class="link" href="{{ products1.url }}">
-                      {% if product.selected_or_first_available_variant.sku == SkuRelation %}
-                        {% assign activo = 'Active' %}
-                      {% else %}
-                        {% assign activo = '' %}
-                      {% endif %}
-                      <img
-                        class="relations-sku {{ activo }}"
-                        src="{{ products1.featured_image | product_img_url: 'small' }}"
+
+              {%- assign style = product.metafields.global.style.value -%}
+
+              {% for product_similar in collections[product.collections[0].handle].all_products %}
+                {% if product_similar.metafields.global.style.value == style %}
+                  {% if product_similar.available %}
+                    <a class="link" href="{{ product_similar.url }}">
+                  {% endif %}
+                    <img
+                        class="relations-sku {% if product.handle == product_similar.handle %}active{% endif %} {% unless product_similar.available %} not-available {% endunless %}"
+                        src="{{ product_similar.featured_image | product_img_url: 'small' }}"
                       >
+                    {% if product_similar.available %}
                     </a>
                   {% endif %}
-                {% endfor %}
+                {% endif %}
               {% endfor %}
             {% endif %}
           </fieldset>
