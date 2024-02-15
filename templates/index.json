@@ -284,10 +284,10 @@
         "button_link": "",
         "color_scheme": "",
         "columns_mobile": "1",
-        "swipe_on_desktop": false,
+        "swipe_on_desktop": true,
         "swipe_on_mobile": true,
         "padding_top": 20,
-        "padding_bottom": 100
+        "padding_bottom": 88
       }
     },
     "241f4691-2553-4f6e-bc31-ad64aa132e6b": {
