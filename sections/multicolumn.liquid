@@ -81,7 +81,8 @@
                   {% assign spaced_image = true %}
                 {% endif %}
                 <div class="multicolumn-card__image-wrapper multicolumn-card__image-wrapper--{{ section.settings.image_width }}-width{% if section.settings.image_width != 'full' or spaced_image %} multicolumn-card-spacing{% endif %}">
-                  <div
+                  <a href="{{block.settings.link}}">
+                    <div
                     class="media media--transparent media--{{ section.settings.image_ratio }}"
                     {% if section.settings.image_ratio == 'adapt' %}
                       style="padding-bottom: {{ 1 | divided_by: highest_ratio | times: 100 }}%;"
@@ -101,13 +102,13 @@
                         assign image_width = 1
                       endif
                     -%}
-
                     {{
                       block.settings.image
                       | image_url: width: 3200
                       | image_tag: widths: '2000', sizes: sizes, class: 'multicolumn-card__image'
                     }}
                   </div>
+                  </a>
                 </div>
               {%- endif -%}
               <div class="multicolumn-card__info">
