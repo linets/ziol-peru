@@ -7,6 +7,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/mochilas_desktop_12.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/ziol-mobile_500x700_adac8284-356f-489f-938c-c15d50ca54d0.png",
             "heading": "",
             "heading_size": "h2",
             "subheading": "",
@@ -25,6 +26,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/bandoleras_desktop_7.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/bandoleras_desktop_7_1_d0d92abf-6fc2-4ed1-a7de-763f515311b5.jpg",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
