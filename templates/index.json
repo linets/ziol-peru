@@ -6,7 +6,7 @@
         "6565bc0f-3939-488b-909e-7616f7e59da3": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/mochilas_desktop_12.jpg",
+            "image": "shopify:\/\/shop_images\/Banner-principal_1.jpg",
             "image_mobile": "shopify:\/\/shop_images\/ziol-mobile_500x700_adac8284-356f-489f-938c-c15d50ca54d0.png",
             "heading": "",
             "heading_size": "h2",
@@ -21,30 +21,10 @@
             "color_scheme": "scheme-1",
             "text_alignment_mobile": "center"
           }
-        },
-        "40d36210-86aa-4bbd-bbc6-78998c425c99": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/bandoleras_desktop_7.jpg",
-            "image_mobile": "shopify:\/\/shop_images\/bandoleras_desktop_7_1_d0d92abf-6fc2-4ed1-a7de-763f515311b5.jpg",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "shopify:\/\/collections",
-            "button_style_secondary": false,
-            "box_align": "middle-right",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-1",
-            "text_alignment_mobile": "center"
-          }
         }
       },
       "block_order": [
-        "6565bc0f-3939-488b-909e-7616f7e59da3",
-        "40d36210-86aa-4bbd-bbc6-78998c425c99"
+        "6565bc0f-3939-488b-909e-7616f7e59da3"
       ],
       "settings": {
         "layout": "full_bleed",
@@ -54,6 +34,42 @@
         "change_slides_speed": 5,
         "image_behavior": "none",
         "show_text_below": false,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "slideshow_eeiRAt": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_qMYM3E": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Banner_mochilas.jpg",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_qMYM3E"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": true,
         "accessibility_info": "Slideshow about our brand"
       }
     },
@@ -362,6 +378,7 @@
   },
   "order": [
     "608f3ae5-b1cf-4082-919f-3ead2712d478",
+    "slideshow_eeiRAt",
     "fd8003f0-fa91-4c7d-8f99-2bb233dd3615",
     "17049857032c5ebfc6",
     "17049865837c762c30",
