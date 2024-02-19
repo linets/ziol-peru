@@ -417,5 +417,10 @@
         }
       }
     }
+  },
+  "platform_customizations": {
+    "custom_css": [
+      "#MainContent {position: relative; z-index: 1;}"
+    ]
   }
 }
