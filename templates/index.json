@@ -73,64 +73,6 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
-    "fd8003f0-fa91-4c7d-8f99-2bb233dd3615": {
-      "type": "multicolumn",
-      "blocks": {
-        "template--21506872606913__fd8003f0-fa91-4c7d-8f99-2bb233dd3615-column-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/CAJA-2.jpg",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": "shopify:\/\/pages\/centro-de-ayuda"
-          }
-        },
-        "template--21506872606913__fd8003f0-fa91-4c7d-8f99-2bb233dd3615-column-2": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/CAJA-1.jpg",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": "shopify:\/\/pages\/contact"
-          }
-        },
-        "template--21506872606913__fd8003f0-fa91-4c7d-8f99-2bb233dd3615-column-3": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/CAJA-2_3bc3045a-33fa-4ce5-974c-a4a88f921940.jpg",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": "shopify:\/\/collections\/all"
-          }
-        }
-      },
-      "block_order": [
-        "template--21506872606913__fd8003f0-fa91-4c7d-8f99-2bb233dd3615-column-1",
-        "template--21506872606913__fd8003f0-fa91-4c7d-8f99-2bb233dd3615-column-2",
-        "template--21506872606913__fd8003f0-fa91-4c7d-8f99-2bb233dd3615-column-3"
-      ],
-      "settings": {
-        "force_full_width": true,
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "square",
-        "columns_desktop": 3,
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "",
-        "columns_mobile": "1",
-        "swipe_on_desktop": false,
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "17049857032c5ebfc6": {
       "type": "apps",
       "blocks": {
@@ -262,7 +204,7 @@
       ],
       "settings": {
         "force_full_width": true,
-        "title": "THE ICONS | METALLIC OBSESSION",
+        "title": "SPECIAL PRICE | MOCHILAS",
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "square",
@@ -379,7 +321,6 @@
   "order": [
     "608f3ae5-b1cf-4082-919f-3ead2712d478",
     "slideshow_eeiRAt",
-    "fd8003f0-fa91-4c7d-8f99-2bb233dd3615",
     "17049857032c5ebfc6",
     "17049865837c762c30",
     "170498672219347873",
