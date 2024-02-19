@@ -120,6 +120,9 @@
     },
     "image_banner_4eac9P": {
       "type": "image-banner",
+      "custom_css": [
+        "#Banner-template--21473158922433__image_banner_4eac9P {margin-top:50px;}"
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Banner_Bandoleras.jpg",
         "image_overlay_opacity": 0,
