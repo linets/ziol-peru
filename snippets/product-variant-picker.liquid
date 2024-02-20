@@ -26,25 +26,21 @@
         {% if option.name == 'Color' and product.options.size == 1 %}
           <fieldset class="js product-form__input">
             <legend class="form__label">{{ option.name }}</legend>
-            {% if product.metafields.global.sku_relation != blank %}
+            
 
               {%- assign style = product.metafields.global.style.value -%}
-
               {% for product_similar in collections[product.collections[0].handle].all_products %}
                 {% if product_similar.metafields.global.style.value == style %}
-                 
                     <a class="link" href="{{ product_similar.url }}">
-                 
                     <img
                         class="relations-sku {% if product.handle == product_similar.handle %}active{% endif %}"
                         src="{{ product_similar.featured_image | product_img_url: 'small' }}"
                       >
-                    
                     </a>
                   {% endif %}
                 
               {% endfor %}
-            {% endif %}
+            
           </fieldset>
         {% else %}
           <fieldset class="js product-form__input">
