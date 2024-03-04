@@ -44,6 +44,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/Banner_mochilas.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/ziol-mobile_500x700_adac8284-356f-489f-938c-c15d50ca54d0.png",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
