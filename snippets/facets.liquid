@@ -26,6 +26,11 @@
   endif
 -%}
 
+<style>
+  .test {
+  }
+</style>
+
 <div class="facets-container{% if filter_type == 'drawer' %} facets-container-drawer{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
   {%- if filter_type == 'vertical' or filter_type == 'horizontal' -%}
     <facet-filters-form class="facets small-hide">
@@ -205,8 +210,17 @@
 
                             <li class="list-menu__item {% if value.active %} list-menu__item--active {% endif %} facets__item{% if forloop.index > show_more_number and filter_type == 'vertical' %} show-more-item hidden{% endif %}">
                               {%- if filter.label == 'Color' -%}
+                                {%- assign customColor = value.value %}
+                                {% for item in shop.metaobjects.custom_colors.values %}
+                                  {% if item.combinations contains value.value %}
+                                    {% liquid
+                                      assign customColor = item.color
+                                    %}
+                                  {% endif %}
+                                {% endfor %}
+
                                 <label
-                                  style="background: {{value.value}}"
+                                  style="background: {{customColor}}"
                                   class="list-menu_color {{value.value}}"
                                   for="Filter-{{ filter.param_name | escape }}-{{ forloop.index }}"
                                 >
