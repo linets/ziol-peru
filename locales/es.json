@@ -525,8 +525,8 @@
   "shopify": {
     "checkout": {
       "contact": {
-        "company_label": "RUT",
-        "optional_company_label": "RUT",
+        "company_label": "RUT (12345678-9)",
+        "optional_company_label": "RUT (12345678-9)",
         "city_label": "Comuna",
         "zip_code_label": "Número de casa",
         "zip_code_placeholder": "Número de casa",
