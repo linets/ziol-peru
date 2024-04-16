@@ -1,1 +1,274 @@
-{"sections":{"608f3ae5-b1cf-4082-919f-3ead2712d478":{"type":"slideshow","blocks":{"6565bc0f-3939-488b-909e-7616f7e59da3":{"type":"slide","settings":{"image":"shopify:\/\/shop_images\/Banner-principal_1.jpg","image_mobile":"shopify:\/\/shop_images\/ziol-mobile_500x700_adac8284-356f-489f-938c-c15d50ca54d0.png","heading":"","heading_size":"h2","subheading":"","button_label":"","link":"shopify:\/\/blogs\/news","button_style_secondary":false,"box_align":"bottom-left","show_text_box":false,"text_alignment":"left","image_overlay_opacity":0,"color_scheme":"scheme-1","text_alignment_mobile":"center"}}},"block_order":["6565bc0f-3939-488b-909e-7616f7e59da3"],"settings":{"layout":"full_bleed","slide_height":"adapt_image","slider_visual":"dots","auto_rotate":false,"change_slides_speed":5,"image_behavior":"none","show_text_below":false,"accessibility_info":"Slideshow about our brand"}},"slideshow_eeiRAt":{"type":"slideshow","blocks":{"slide_qMYM3E":{"type":"slide","settings":{"image":"shopify:\/\/shop_images\/Banner_mochilas.jpg","image_mobile":"shopify:\/\/shop_images\/mochilas_mobile_13_719068ae-20d6-4721-ac81-3f8d47f6774a.jpg","heading":"","heading_size":"h1","subheading":"","button_label":"","link":"","button_style_secondary":false,"box_align":"middle-center","show_text_box":true,"text_alignment":"center","image_overlay_opacity":0,"color_scheme":"","text_alignment_mobile":"center"}}},"block_order":["slide_qMYM3E"],"settings":{"layout":"full_bleed","slide_height":"adapt_image","slider_visual":"dots","auto_rotate":false,"change_slides_speed":5,"image_behavior":"none","show_text_below":false,"accessibility_info":"Slideshow about our brand"}},"featured_collection_hE3XCK":{"type":"featured-collection","settings":{"title":"SPECIAL PRICE | MOCHILAS","heading_size":"h1","align_title":"center","description":"","show_description":false,"description_style":"body","collection":"mochilas","products_to_show":10,"columns_desktop":5,"full_width":true,"show_view_all":true,"view_all_style":"solid","enable_desktop_slider":false,"color_scheme":"","image_ratio":"adapt","image_shape":"default","show_secondary_image":false,"show_vendor":false,"show_rating":false,"enable_quick_add":false,"columns_mobile":"2","swipe_on_mobile":true,"padding_top":36,"padding_bottom":36}},"image_banner_pXTjMn":{"type":"image-banner","settings":{"image":"shopify:\/\/shop_images\/Banner_accesorios.jpg","image_overlay_opacity":0,"image_height":"adapt","desktop_content_position":"middle-center","show_text_box":true,"desktop_content_alignment":"center","color_scheme":"","image_behavior":"none","mobile_content_alignment":"center","stack_images_on_mobile":true,"show_text_below":true}},"image_banner_4eac9P":{"type":"image-banner","custom_css":["#Banner-template--21473158922433__image_banner_4eac9P {margin-top: 50px;}"],"settings":{"image":"shopify:\/\/shop_images\/Banner_Bandoleras.jpg","image_overlay_opacity":0,"image_height":"adapt","desktop_content_position":"middle-center","show_text_box":true,"desktop_content_alignment":"center","color_scheme":"","image_behavior":"none","mobile_content_alignment":"center","stack_images_on_mobile":true,"show_text_below":true}},"featured_collection_Ltj79V":{"type":"featured-collection","settings":{"title":"ON SALE | BANDOLERAS","heading_size":"h1","align_title":"center","description":"","show_description":false,"description_style":"body","collection":"mochilas","products_to_show":6,"columns_desktop":5,"full_width":true,"show_view_all":true,"view_all_style":"solid","enable_desktop_slider":false,"color_scheme":"","image_ratio":"adapt","image_shape":"default","show_secondary_image":false,"show_vendor":false,"show_rating":false,"enable_quick_add":false,"columns_mobile":"2","swipe_on_mobile":true,"padding_top":36,"padding_bottom":36}},"406a65c7-d10a-4160-a30c-634059fa1435":{"type":"multicolumn","blocks":{"template--16161306640578__406a65c7-d10a-4160-a30c-634059fa1435-column-1":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/Gancho_comercial_2.png","title":"","text":"","link_label":"","link":""}},"column_7G33BN":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/Gancho_comercial_3.png","title":"","text":"","link_label":"","link":""}},"5d62f929-a455-4369-b59a-d72d1f33b2a1":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/gancho_comercial_1.png","title":"","text":"<p><\/p><p><\/p>","link_label":"","link":""}}},"block_order":["template--16161306640578__406a65c7-d10a-4160-a30c-634059fa1435-column-1","column_7G33BN","5d62f929-a455-4369-b59a-d72d1f33b2a1"],"custom_css":[".multicolumn {background: #000;}",".multicolumn-card-spacing {width: 100%; height: auto;}",".slider-button {color: rgb(172 172 172 \/ 75%);}",".slider-button:not([disabled]):hover {color: rgb(197 197 197);}"],"settings":{"force_full_width":false,"title":"","heading_size":"h2","image_width":"half","image_ratio":"square","columns_desktop":3,"column_alignment":"center","background_style":"none","button_label":"","button_link":"","color_scheme":"","columns_mobile":"1","swipe_on_desktop":false,"swipe_on_mobile":true,"padding_top":16,"padding_bottom":20}},"dc802415-49b3-4130-a1bb-b4143927a0d4":{"type":"video","settings":{"heading":"","heading_size":"h1","enable_video_looping":true,"custm_video_url":"https:\/\/www.youtube.com\/embed\/rqqa37AjIoI?autoplay=1&controls=0&showinfo=0&loop=1&mute=1&playlist=rqqa37AjIoI&enablejsapi=1&origin=https%3A%2F%2Fwww.ziolstore.com&widgetid=1","video_url":"","description":"","full_width":true,"color_scheme":"","padding_top":36,"padding_bottom":36}},"17049857032c5ebfc6":{"type":"apps","blocks":{"retail_rocket_personalization_markups_9d6n4Y":{"type":"shopify:\/\/apps\/retail-rocket-personalization\/blocks\/markups\/eb06115a-3169-4b5b-a921-16aac205bb7d","settings":{"rrMarkupCode":"659548da9b15095e98a658f2","rrEmptyMarkupCode":""}}},"block_order":["retail_rocket_personalization_markups_9d6n4Y"],"settings":{"include_margins":true}},"17049865837c762c30":{"type":"apps","blocks":{"retail_rocket_personalization_markups_E9pptQ":{"type":"shopify:\/\/apps\/retail-rocket-personalization\/blocks\/markups\/eb06115a-3169-4b5b-a921-16aac205bb7d","settings":{"rrMarkupCode":"659550249b15095e98a65945","rrEmptyMarkupCode":""}}},"block_order":["retail_rocket_personalization_markups_E9pptQ"],"settings":{"include_margins":true}},"170498672219347873":{"type":"apps","blocks":{"retail_rocket_personalization_markups_V9T4EP":{"type":"shopify:\/\/apps\/retail-rocket-personalization\/blocks\/markups\/eb06115a-3169-4b5b-a921-16aac205bb7d","settings":{"rrMarkupCode":"659550384d342b6d85f8bbcb","rrEmptyMarkupCode":""}}},"block_order":["retail_rocket_personalization_markups_V9T4EP"],"settings":{"include_margins":true}}},"order":["608f3ae5-b1cf-4082-919f-3ead2712d478","slideshow_eeiRAt","featured_collection_hE3XCK","image_banner_pXTjMn","image_banner_4eac9P","featured_collection_Ltj79V","406a65c7-d10a-4160-a30c-634059fa1435","dc802415-49b3-4130-a1bb-b4143927a0d4","17049857032c5ebfc6","17049865837c762c30","170498672219347873"]}
+{
+  "sections": {
+    "608f3ae5-b1cf-4082-919f-3ead2712d478": {
+      "type": "slideshow",
+      "blocks": {
+        "6565bc0f-3939-488b-909e-7616f7e59da3": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Banner-principal_1.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/ziol-mobile_500x700_adac8284-356f-489f-938c-c15d50ca54d0.png",
+            "heading": "",
+            "heading_size": "h2",
+            "subheading": "",
+            "button_label": "",
+            "link": "shopify:\/\/blogs\/news",
+            "button_style_secondary": false,
+            "box_align": "bottom-left",
+            "show_text_box": false,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "6565bc0f-3939-488b-909e-7616f7e59da3"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "adapt_image",
+        "slider_visual": "dots",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": false,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "slideshow_eeiRAt": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_qMYM3E": {
+          "type": "slide",
+          "settings": {
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_qMYM3E"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "adapt_image",
+        "slider_visual": "dots",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": false,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "featured_collection_hE3XCK": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "SPECIAL PRICE | MOCHILAS",
+        "heading_size": "h1",
+        "align_title": "center",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "mochilas",
+        "products_to_show": 10,
+        "columns_desktop": 5,
+        "full_width": true,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_banner_pXTjMn": {
+      "type": "image-banner",
+      "settings": {
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "image_banner_4eac9P": {
+      "type": "image-banner",
+      "custom_css": [
+        "#Banner-template--21473158922433__image_banner_4eac9P {margin-top: 50px;}"
+      ],
+      "settings": {
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "featured_collection_Ltj79V": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "ON SALE | BANDOLERAS",
+        "heading_size": "h1",
+        "align_title": "center",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "mochilas",
+        "products_to_show": 6,
+        "columns_desktop": 5,
+        "full_width": true,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "406a65c7-d10a-4160-a30c-634059fa1435": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--16161306640578__406a65c7-d10a-4160-a30c-634059fa1435-column-1": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_7G33BN": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "5d62f929-a455-4369-b59a-d72d1f33b2a1": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p><\/p><p><\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16161306640578__406a65c7-d10a-4160-a30c-634059fa1435-column-1",
+        "column_7G33BN",
+        "5d62f929-a455-4369-b59a-d72d1f33b2a1"
+      ],
+      "custom_css": [
+        ".multicolumn {background: #000;}",
+        ".multicolumn-card-spacing {width: 100%; height: auto;}",
+        ".slider-button {color: rgb(172 172 172 \/ 75%);}",
+        ".slider-button:not([disabled]):hover {color: rgb(197 197 197);}"
+      ],
+      "settings": {
+        "force_full_width": false,
+        "title": "",
+        "heading_size": "h2",
+        "image_width": "half",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_desktop": false,
+        "swipe_on_mobile": true,
+        "padding_top": 16,
+        "padding_bottom": 20
+      }
+    },
+    "dc802415-49b3-4130-a1bb-b4143927a0d4": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "enable_video_looping": true,
+        "custm_video_url": "https:\/\/www.youtube.com\/embed\/rqqa37AjIoI?autoplay=1&controls=0&showinfo=0&loop=1&mute=1&playlist=rqqa37AjIoI&enablejsapi=1&origin=https%3A%2F%2Fwww.ziolstore.com&widgetid=1",
+        "video_url": "",
+        "description": "",
+        "full_width": true,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "17049857032c5ebfc6": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "17049865837c762c30": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "170498672219347873": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "608f3ae5-b1cf-4082-919f-3ead2712d478",
+    "slideshow_eeiRAt",
+    "featured_collection_hE3XCK",
+    "image_banner_pXTjMn",
+    "image_banner_4eac9P",
+    "featured_collection_Ltj79V",
+    "406a65c7-d10a-4160-a30c-634059fa1435",
+    "dc802415-49b3-4130-a1bb-b4143927a0d4",
+    "17049857032c5ebfc6",
+    "17049865837c762c30",
+    "170498672219347873"
+  ]
+}
