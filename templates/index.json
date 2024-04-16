@@ -106,6 +106,7 @@
     "image_banner_pXTjMn": {
       "type": "image-banner",
       "settings": {
+        "image": "shopify:\/\/shop_images\/Banner_accesorios.jpg",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
@@ -124,6 +125,7 @@
         "#Banner-template--21473158922433__image_banner_4eac9P {margin-top: 50px;}"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/Banner_Bandoleras.jpg",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
@@ -171,6 +173,7 @@
         "template--16161306640578__406a65c7-d10a-4160-a30c-634059fa1435-column-1": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Gancho_comercial_2.png",
             "title": "",
             "text": "",
             "link_label": "",
@@ -180,6 +183,7 @@
         "column_7G33BN": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Gancho_comercial_3.png",
             "title": "",
             "text": "",
             "link_label": "",
@@ -189,6 +193,7 @@
         "5d62f929-a455-4369-b59a-d72d1f33b2a1": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/gancho_comercial_1.png",
             "title": "",
             "text": "<p><\/p><p><\/p>",
             "link_label": "",
