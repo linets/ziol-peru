@@ -43,6 +43,8 @@
         "slide_qMYM3E": {
           "type": "slide",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Banner_mochilas.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/mochilas_mobile_13_719068ae-20d6-4721-ac81-3f8d47f6774a.jpg",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
