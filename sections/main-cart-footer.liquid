@@ -64,14 +64,31 @@
                 </div>
 
                 <small class="tax-note caption-large rte">
-                  {%- if cart.taxes_included and shop.shipping_policy.body != blank -%}
-                    {{ 'sections.cart.taxes_included_and_shipping_policy_html' | t: link: shop.shipping_policy.url }}
-                  {%- elsif cart.taxes_included -%}
-                    {{ 'sections.cart.taxes_included_but_shipping_at_checkout' | t }}
-                  {%- elsif shop.shipping_policy.body != blank -%}
-                    {{ 'sections.cart.taxes_and_shipping_policy_at_checkout_html' | t: link: shop.shipping_policy.url }}
-                  {%- else -%}
-                    {{ 'sections.cart.taxes_and_shipping_at_checkout' | t }}
+                  {% # accid-custom peru %}
+                  <div class=" rte terms-checkbox">
+                    <label>
+                      <input id="terminos" class="agree-terms" type="checkbox" name="agree_terms" onclick="term(this);">
+
+                      <span>Acepto los 
+                        <a href="/pages/terminos-y-condiciones" target="_blank"> <u>Términos y Condiciones</u> </a>
+                      </span>
+                    </label>
+                  </div>
+
+                  {%- if 1 > 2 -%}
+                    {% # accid-comentado %}
+                    {%- if cart.taxes_included and shop.shipping_policy.body != blank -%}
+                      {{ 'sections.cart.taxes_included_and_shipping_policy_html' | t: link: shop.shipping_policy.url }}
+                    {%- elsif cart.taxes_included -%}
+                      {{ 'sections.cart.taxes_included_but_shipping_at_checkout' | t }}
+                    {%- elsif shop.shipping_policy.body != blank -%}
+                      {{
+                        'sections.cart.taxes_and_shipping_policy_at_checkout_html'
+                        | t: link: shop.shipping_policy.url
+                      }}
+                    {%- else -%}
+                      {{ 'sections.cart.taxes_and_shipping_at_checkout' | t }}
+                    {%- endif -%}
                   {%- endif -%}
                 </small>
               </div>
@@ -84,6 +101,7 @@
                 </noscript>
 
                 <button
+                  disabled
                   type="submit"
                   id="checkout"
                   class="cart__checkout-button button"
@@ -112,6 +130,15 @@
 </div>
 
 <script>
+  function term(hil) {
+    if (hil.checked) {
+      document.querySelector('#CartDrawer-Checkout').disabled = false;
+      document.querySelector('#checkout').disabled = false;
+    } else {
+      document.querySelector('#CartDrawer-Checkout').disabled = true;
+      document.querySelector('#checkout').disabled = true;
+    }
+  }
   document.addEventListener('DOMContentLoaded', function () {
     function isIE() {
       const ua = window.navigator.userAgent;
