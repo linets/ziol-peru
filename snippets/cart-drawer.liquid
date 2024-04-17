@@ -492,14 +492,20 @@
           </div>
 
           <small class="tax-note caption-large rte">
-            {%- if cart.taxes_included and shop.shipping_policy.body != blank -%}
-              {{ 'sections.cart.taxes_included_and_shipping_policy_html' | t: link: shop.shipping_policy.url }}
-            {%- elsif cart.taxes_included -%}
-              {{ 'sections.cart.taxes_included_but_shipping_at_checkout' | t }}
-            {%- elsif shop.shipping_policy.body != blank -%}
-              {{ 'sections.cart.taxes_and_shipping_policy_at_checkout_html' | t: link: shop.shipping_policy.url }}
-            {%- else -%}
-              {{ 'sections.cart.taxes_and_shipping_at_checkout' | t }}
+            {% # accid-custom peru %}
+            
+
+            {%- if 1 > 2 -%}
+              {% # accid-comentado %}
+              {%- if cart.taxes_included and shop.shipping_policy.body != blank -%}
+                {{ 'sections.cart.taxes_included_and_shipping_policy_html' | t: link: shop.shipping_policy.url }}
+              {%- elsif cart.taxes_included -%}
+                {{ 'sections.cart.taxes_included_but_shipping_at_checkout' | t }}
+              {%- elsif shop.shipping_policy.body != blank -%}
+                {{ 'sections.cart.taxes_and_shipping_policy_at_checkout_html' | t: link: shop.shipping_policy.url }}
+              {%- else -%}
+                {{ 'sections.cart.taxes_and_shipping_at_checkout' | t }}
+              {%- endif -%}
             {%- endif -%}
           </small>
         </div>
@@ -512,21 +518,23 @@
               {{ 'sections.cart.update' | t }}
             </button>
           </noscript>
-          <a class="cart__checkout-button button" href="/cart">
-           Ver carrito
-          </a>
-          <button
-            type="submit"
-            id="CartDrawer-Checkout"
-            class="cart__checkout-button button"
-            name="checkout"
-            form="CartDrawer-Form"
-            {% if cart == empty %}
+         
+            <a class="cart__checkout-button button" href="/cart"> Pagar </a>
+       {%- if 1 > 2 -%}
+            <button
+              type="submit"
               disabled
-            {% endif %}
-          >
-            {{ 'sections.cart.checkout' | t }}
-          </button>
+              id="CartDrawer-Checkout"
+              class="cart__checkout-button button"
+              name="checkout"
+              form="CartDrawer-Form"
+              {% if cart == empty %}
+                disabled©
+              {% endif %}
+            >
+              {{ 'sections.cart.checkout' | t }}
+            </button>
+        {%- endif -%}
         </div>
       </div>
     </div>
@@ -534,6 +542,15 @@
 </cart-drawer>
 
 <script>
+  function term(hil) {
+    if (hil.checked) {
+      document.querySelector('#CartDrawer-Checkout').disabled = false;
+      document.querySelector('#checkout').disabled = false;
+    } else {
+      document.querySelector('#CartDrawer-Checkout').disabled = true;
+      document.querySelector('#checkout').disabled = true;
+    }
+  }
   document.addEventListener('DOMContentLoaded', function () {
     function isIE() {
       const ua = window.navigator.userAgent;
