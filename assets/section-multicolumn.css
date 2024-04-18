@@ -184,6 +184,9 @@
   object-fit: contain;
 }
 
+.multicolumn-card .multicolumn-card__info{
+  padding: 0;
+}
 .multicolumn-card .multicolumn-card__info,
 .multicolumn-card .multicolumn-card__info h3{
   color: #ffffff;
