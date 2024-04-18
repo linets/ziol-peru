@@ -199,12 +199,22 @@
             "link_label": "",
             "link": ""
           }
+        },
+        "column_gxy9qF": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>RETIRO EN TIENDA<\/strong>",
+            "text": "<p>Sin costo de envio y en tiendas Ziol<\/p>",
+            "link_label": "",
+            "link": ""
+          }
         }
       },
       "block_order": [
         "template--16161306640578__406a65c7-d10a-4160-a30c-634059fa1435-column-1",
         "column_7G33BN",
-        "5d62f929-a455-4369-b59a-d72d1f33b2a1"
+        "5d62f929-a455-4369-b59a-d72d1f33b2a1",
+        "column_gxy9qF"
       ],
       "custom_css": [
         ".multicolumn {background: #000;}",
