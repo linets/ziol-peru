@@ -203,6 +203,7 @@
         "column_gxy9qF": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/W4.png",
             "title": "<strong>RETIRO EN TIENDA<\/strong>",
             "text": "<p>Sin costo de envio y en tiendas Ziol<\/p>",
             "link_label": "",
@@ -228,7 +229,7 @@
         "heading_size": "h2",
         "image_width": "half",
         "image_ratio": "square",
-        "columns_desktop": 3,
+        "columns_desktop": 4,
         "column_alignment": "center",
         "background_style": "none",
         "button_label": "",
