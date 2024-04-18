@@ -174,8 +174,8 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/Gancho_comercial_2.png",
-            "title": "",
-            "text": "",
+            "title": "<strong>ENVIO A NIVEL NACIONAL<\/strong>",
+            "text": "<p>Despachos a nivel nacional.<\/p>",
             "link_label": "",
             "link": ""
           }
