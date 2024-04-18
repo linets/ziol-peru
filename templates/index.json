@@ -193,9 +193,9 @@
         "5d62f929-a455-4369-b59a-d72d1f33b2a1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/gancho_comercial_1.png",
-            "title": "",
-            "text": "<p><\/p><p><\/p>",
+            "image": "shopify:\/\/shop_images\/W3.png",
+            "title": "<strong>COMPRA SEGURA<\/strong>",
+            "text": "<p>Con cualquier medio de pago<\/p><p><\/p>",
             "link_label": "",
             "link": ""
           }
