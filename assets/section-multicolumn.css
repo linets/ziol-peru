@@ -96,6 +96,8 @@
   margin-top: 1rem;
 }
 
+.multicolumn-card 
+
 .multicolumn-list__item.center .media--adapt,
 .multicolumn-list__item .media--adapt .multicolumn-card__image {
   width: auto;
@@ -169,6 +171,12 @@
 .background-none .multicolumn-list:not(.slider) .center .multicolumn-card__info {
   padding-left: 2.5rem;
   padding-right: 2.5rem;
+}
+
+.multicolumn-card__image-wrapper a .media{
+  max-width: 60px;
+  max-height: 40px;
+  object-fit: contain;
 }
 
 @media screen and (max-width: 749px) {
