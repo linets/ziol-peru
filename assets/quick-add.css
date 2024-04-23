@@ -12,6 +12,11 @@ button.quick-add__submit {
   border: 1px solid rgba(199, 175, 140, 1);
   border-color: #c7af8c;
 }
+button.quick-add__submit:hover {
+  background: #000;
+  color: #fff;
+  border-color: #000;
+}
 button.quick-add__submit:before,
 button.quick-add__submit:after{
   display: none;
