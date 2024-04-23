@@ -7,6 +7,12 @@
   bottom: 90px;
 }
 
+button.quick-add__submit {
+  background: #c7af8c;
+  border: 1px solid rgba(199, 175, 140, 1);
+  border-color: #c7af8c;
+}
+
 @media(max-width:767px) {
   .quick-add {
     position: relative;
