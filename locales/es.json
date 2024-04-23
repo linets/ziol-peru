@@ -537,7 +537,10 @@
         "address2_label": "Detalles adicionales",
         "optional_address2_label": "Detalles adicionales",
         "last_name_label": "Apellidos \/ Razon social",
-        "optional_last_name_label": "Apellidos \/ Razon social"
+        "optional_last_name_label": "Apellidos \/ Razon social",
+        "address_title": "Dirección (Calle, Número y Dpto) - Ej.: Calle los tulipanes 760, Dpto 302",
+        "stored_addresses_label": "Dirección (Calle, Número y Dpto) - Ej.: Calle los tulipanes 760, Dpto 302",
+        "address1_label": "Dirección (Calle, Número y Dpto) - Ej.: Calle los tulipanes 760, Dpto 302"
       },
       "field_errors": {
         "address_company_blank": "Introduce un número de DNI \/ RUC \/ C.E.",
