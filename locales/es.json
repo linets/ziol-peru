@@ -527,7 +527,7 @@
       "contact": {
         "company_label": "DNI \/ RUC \/ C.E.",
         "optional_company_label": "DNI \/ RUC \/ C.E.",
-        "city_label": "Comuna",
+        "city_label": "Provincia",
         "zip_code_label": "Número de casa",
         "zip_code_placeholder": "Número de casa",
         "postal_code_label": "Número de casa",
@@ -544,7 +544,7 @@
       },
       "field_errors": {
         "address_company_blank": "Introduce un número de DNI \/ RUC \/ C.E.",
-        "address_city_blank": "Introduce una comuna",
+        "address_city_blank": "Introduce una provincia",
         "address_zip_blank": "Introduce un número de casa"
       }
     }
