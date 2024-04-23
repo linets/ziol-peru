@@ -375,10 +375,10 @@
     }
   },
   "localization": {
-    "country_label": "País\/región",
+    "country_label": "Departamento",
     "language_label": "Idioma",
     "update_language": "Actualizar idioma",
-    "update_country": "Actualizar país\/región"
+    "update_country": "Departamento"
   },
   "customer": {
     "account": {
@@ -407,7 +407,7 @@
       "address1": "Dirección 1",
       "address2": "Dirección 2",
       "city": "Ciudad",
-      "country": "País\/región",
+      "country": "Departamento",
       "province": "Provincia",
       "zip": "Código postal",
       "phone": "Teléfono",
@@ -540,13 +540,19 @@
         "optional_last_name_label": "Apellidos \/ Razon social",
         "address_title": "Dirección (Calle, Número y Dpto) - Ej.: Calle los tulipanes 760, Dpto 302",
         "stored_addresses_label": "Dirección (Calle, Número y Dpto) - Ej.: Calle los tulipanes 760, Dpto 302",
-        "address1_label": "Dirección (Calle, Número y Dpto) - Ej.: Calle los tulipanes 760, Dpto 302"
+        "address1_label": "Dirección (Calle, Número y Dpto) - Ej.: Calle los tulipanes 760, Dpto 302",
+        "country_label": "Departamento",
+        "region_label": "Departamento",
+        "region_placeholder": "Departamento"
       },
       "field_errors": {
         "address_company_blank": "Introduce un número de DNI \/ RUC \/ C.E.",
         "address_city_blank": "Introduce una provincia",
         "address_zip_blank": "Introduce un número de casa"
       }
+    },
+    "addresses": {
+      "region": "Departamento"
     }
   }
 }
