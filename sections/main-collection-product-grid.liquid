@@ -45,6 +45,7 @@
                   id="SortBy"
                   aria-describedby="a11y-refresh-page-message"
                 >
+                  {% comment %}
                   {%- for option in collection.sort_options -%}
                     <option
                       value="{{ option.value | escape }}"
@@ -55,6 +56,12 @@
                       {{ option.name | escape }}
                     </option>
                   {%- endfor -%}
+                  {% endcomment %}                  
+                  <option value="best-selling">Más vendido</option>
+                  <option value="price-descending">Mayor precio a Menor precio</option>
+                  <option value="price-ascending">Menor precio a Mayor precio</option>
+                  <option value="created-descending">Novedades</option>
+                  <option value="sale-descending" selected="selected">Destacados</option>
                 </select>
                 {% render 'icon-caret' %}
               </div>
