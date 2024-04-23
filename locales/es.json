@@ -535,7 +535,9 @@
         "postcode_label": "Número de casa",
         "postcode_placeholder": "Número de casa",
         "address2_label": "Detalles adicionales",
-        "optional_address2_label": "Detalles adicionales"
+        "optional_address2_label": "Detalles adicionales",
+        "last_name_label": "Apellidos \/ Razon social",
+        "optional_last_name_label": "Apellidos \/ Razon social"
       },
       "field_errors": {
         "address_company_blank": "Introduce un número de DNI \/ RUC \/ C.E.",
