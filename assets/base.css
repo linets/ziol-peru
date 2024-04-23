@@ -3629,3 +3629,8 @@ details-disclosure>details {
   color: #c7af8c !important;
   text-decoration: none !important;
 }
+
+.product__accordion .accordion__title {
+  color: #c7af8c !important;
+  font-weight: bold !important;
+}
