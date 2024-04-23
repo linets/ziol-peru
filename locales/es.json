@@ -528,12 +528,12 @@
         "company_label": "DNI \/ RUC \/ C.E.",
         "optional_company_label": "DNI \/ RUC \/ C.E.",
         "city_label": "Provincia",
-        "zip_code_label": "Número de casa",
-        "zip_code_placeholder": "Número de casa",
-        "postal_code_label": "Número de casa",
-        "postal_code_placeholder": "Número de casa",
-        "postcode_label": "Número de casa",
-        "postcode_placeholder": "Número de casa",
+        "zip_code_label": "Distrito",
+        "zip_code_placeholder": "Distrito",
+        "postal_code_label": "Distrito",
+        "postal_code_placeholder": "Distrito",
+        "postcode_label": "Distrito",
+        "postcode_placeholder": "Distrito",
         "address2_label": "Detalles adicionales",
         "optional_address2_label": "Detalles adicionales",
         "last_name_label": "Apellidos \/ Razon social",
@@ -548,7 +548,7 @@
       "field_errors": {
         "address_company_blank": "Introduce un número de DNI \/ RUC \/ C.E.",
         "address_city_blank": "Introduce una provincia",
-        "address_zip_blank": "Introduce un número de casa"
+        "address_zip_blank": "Distrito"
       }
     },
     "addresses": {
