@@ -3622,3 +3622,10 @@ details-disclosure>details {
     padding-bottom: 25px;
   }
 }
+
+.custom-link-header-item:hover,
+.header__menu-item:hover,
+.header__menu-item:hover>.header__active-menu-item {
+  color: #c7af8c !important;
+  text-decoration: none !important;
+}
