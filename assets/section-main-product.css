@@ -1713,7 +1713,7 @@ div[id^="price-template"] {
 .price-item--regular {
   font-size: 17px !important;
   line-height: 17px !important;
-  color: #999999 !important;
+  color: #999999 ;
 }
 
 .price__badge-sale {
