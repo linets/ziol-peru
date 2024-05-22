@@ -11,10 +11,18 @@
             "text": "ENVÍO GRATIS POR COMPRAS SUPERIORES A S\/ 249",
             "link": ""
           }
+        },
+        "announcement_EhWyAP": {
+          "type": "announcement",
+          "settings": {
+            "text": "¡Bienvenido a  nuestro shop online!",
+            "link": ""
+          }
         }
       },
       "block_order": [
-        "announcement-bar-0"
+        "announcement-bar-0",
+        "announcement_EhWyAP"
       ],
       "settings": {
         "color_scheme": "accent-1",
