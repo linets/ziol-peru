@@ -221,7 +221,9 @@
         ".multicolumn {background: #000;}",
         ".multicolumn-card-spacing {width: 100%; height: auto;}",
         ".slider-button {color: rgb(172 172 172 \/ 75%);}",
-        ".slider-button:not([disabled]):hover {color: rgb(197 197 197);}"
+        ".slider-button:not([disabled]):hover {color: rgb(197 197 197);}",
+        ".multicolumn-card .inline-richtext {font-size: 15px;}",
+        ".multicolumn-card .rte {font-size: 13px}"
       ],
       "settings": {
         "force_full_width": false,
