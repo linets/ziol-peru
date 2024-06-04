@@ -174,8 +174,8 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/W1.png",
-            "title": "<strong>ENVIO A NIVEL NACIONAL<\/strong>",
-            "text": "<p>Despachos a nivel nacional.<\/p>",
+            "title": "",
+            "text": "<p><strong>ENVIO A NIVEL NACIONAL<\/strong><br\/>Despachos a nivel nacional.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -223,7 +223,7 @@
         ".slider-button {color: rgb(172 172 172 \/ 75%);}",
         ".slider-button:not([disabled]):hover {color: rgb(197 197 197);}",
         ".multicolumn-card .inline-richtext {font-size: 15px;}",
-        ".multicolumn-card .rte {font-size: 13px}"
+        ".multicolumn-card .rte {font-size: 13px;}"
       ],
       "settings": {
         "force_full_width": false,
