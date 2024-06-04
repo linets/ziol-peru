@@ -174,8 +174,8 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/W1.png",
-            "title": "",
-            "text": "<p><strong>ENVIO A NIVEL NACIONAL<\/strong><br\/>Despachos a nivel nacional.<\/p>",
+            "title": "<strong>ENVIO A NIVEL NACIONAL<\/strong>",
+            "text": "<p>Despachos a nivel nacional.<\/p>",
             "link_label": "",
             "link": ""
           }
