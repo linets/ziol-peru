@@ -15,13 +15,13 @@
         "6565bc0f-3939-488b-909e-7616f7e59da3": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Banner-principal_1.jpg",
-            "image_mobile": "shopify:\/\/shop_images\/ziol-mobile_500x700_adac8284-356f-489f-938c-c15d50ca54d0.png",
+            "image": "shopify:\/\/shop_images\/aw24-dk.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/aw24-mb.jpg",
             "heading": "",
             "heading_size": "h2",
             "subheading": "",
             "button_label": "",
-            "link": "shopify:\/\/blogs\/news",
+            "link": "shopify:\/\/collections",
             "button_style_secondary": false,
             "box_align": "bottom-left",
             "show_text_box": false,
