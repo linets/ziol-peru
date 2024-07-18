@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin language editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "general": {
     "password_page": {
@@ -409,7 +418,7 @@
       "city": "Ciudad",
       "country": "Departamento",
       "province": "Provincia",
-      "zip": "Código postal",
+      "zip": "Distrito",
       "phone": "Teléfono",
       "set_default": "Establecer como dirección predeterminada",
       "add": "Agregar dirección",
@@ -543,16 +552,33 @@
         "address1_label": "Dirección (Calle, Número y Dpto) - Ej.: Calle los tulipanes 760, Dpto 302",
         "country_label": "Departamento",
         "region_label": "Departamento",
-        "region_placeholder": "Departamento"
+        "region_placeholder": "Departamento",
+        "optional_zip_code_label": "Distrito",
+        "optional_postal_code_label": "Distrito",
+        "optional_postcode_label": "Distrito"
       },
       "field_errors": {
         "address_company_blank": "Introduce un número de DNI \/ RUC \/ C.E.",
         "address_city_blank": "Introduce una provincia",
         "address_zip_blank": "Distrito"
+      },
+      "wallets": {
+        "errors": {
+          "invalid": {
+            "postal_code": "Introduce un Distrito válido"
+          },
+          "missing": {
+            "zip": "Introduce un Distrito"
+          }
+        }
       }
     },
     "addresses": {
-      "region": "Departamento"
+      "region": "Departamento",
+      "zip_code": "Distrito",
+      "postal_code": "Distrito",
+      "postcode": "Distrito",
+      "pincode": "Distrito"
     }
   }
 }
