@@ -640,6 +640,12 @@
                     <span>{{ product.metafields.global.Correa_ajustable.value }}</span>
                   </div>
                 {% endif %}
+                {% if product.metafields.global.filtro_material != blank %}
+                  <div>
+                    <strong>Material:</strong>
+                    <span>{{ product.metafields.global.filtro_material.value }}</span>
+                  </div>
+                {% endif %}
                 {% if product.metafields.global.con_monedero != blank %}
                   <div>
                     <strong>Con monedero:</strong> <span>{{ product.metafields.global.con_monedero.value }}</span>
