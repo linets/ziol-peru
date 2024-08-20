@@ -3634,3 +3634,9 @@ details-disclosure>details {
   color: #c7af8c !important;
   font-weight: bold !important;
 }
+
+.grid.product-grid .price .price__badge-sale{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
