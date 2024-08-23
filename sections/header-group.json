@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "name": "t:sections.header.name",
   "type": "header",
@@ -18,11 +27,19 @@
             "text": "¡Bienvenido a  nuestro shop online!",
             "link": ""
           }
+        },
+        "announcement_Ta9ecQ": {
+          "type": "announcement",
+          "settings": {
+            "text": "Paga con 3 & 6 cuotas sin intereses con tarjetas BCP, BBVA y Diners ! Aplican T&C | Exclusivo online",
+            "link": ""
+          }
         }
       },
       "block_order": [
         "announcement-bar-0",
-        "announcement_EhWyAP"
+        "announcement_EhWyAP",
+        "announcement_Ta9ecQ"
       ],
       "settings": {
         "color_scheme": "accent-1",
