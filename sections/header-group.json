@@ -14,6 +14,13 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
+        "announcement_EhWyAP": {
+          "type": "announcement",
+          "settings": {
+            "text": "💥 SALE Now On |  Hasta 50% OFF",
+            "link": ""
+          }
+        },
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
@@ -27,19 +34,12 @@
             "text": "Paga con 3 & 6 cuotas sin intereses con tarjetas BCP, BBVA y Diners ! Aplican T&C | Exclusivo online",
             "link": ""
           }
-        },
-        "announcement_EhWyAP": {
-          "type": "announcement",
-          "settings": {
-            "text": "¡Bienvenido a  nuestro shop online!",
-            "link": ""
-          }
         }
       },
       "block_order": [
+        "announcement_EhWyAP",
         "announcement-bar-0",
-        "announcement_Ta9ecQ",
-        "announcement_EhWyAP"
+        "announcement_Ta9ecQ"
       ],
       "settings": {
         "color_scheme": "accent-1",
