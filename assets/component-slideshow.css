@@ -110,6 +110,7 @@ slideshow-component .slideshow.banner {
 
   .slideshow_mobile img {
     width: 100%;
+    height: 100%;
     object-fit: cover;
   }
 
