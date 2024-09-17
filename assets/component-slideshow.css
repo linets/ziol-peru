@@ -113,7 +113,6 @@ slideshow-component .slideshow.banner {
     height: 100%;
     object-fit: cover;
   }
-
   .slideshow:not(.banner--mobile-bottom) {
     height: 700px;
   }
