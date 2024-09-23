@@ -15,13 +15,13 @@
         "6565bc0f-3939-488b-909e-7616f7e59da3": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/banner-desktop-ziol.gif",
-            "image_mobile": "shopify:\/\/shop_images\/banner-mobil-ziol.gif",
+            "image": "shopify://shop_images/banner-desktop-ziol.gif",
+            "image_mobile": "shopify://shop_images/banner-mobil-ziol.gif",
             "heading": "",
             "heading_size": "h2",
             "subheading": "",
             "button_label": "",
-            "link": "shopify:\/\/collections\/sale",
+            "link": "shopify://collections/sale",
             "button_style_secondary": false,
             "box_align": "bottom-left",
             "show_text_box": false,
@@ -34,13 +34,13 @@
         "slide_Tmfz8g": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/SS25-DK.jpg",
-            "image_mobile": "shopify:\/\/shop_images\/SS25-MB.png",
+            "image": "shopify://shop_images/SS25-DK-ziol-vs2.jpg",
+            "image_mobile": "shopify://shop_images/SS25-MB_c21c2806-2990-427f-a3e7-8ecd392a2ce1.png",
             "heading": "Image slide",
             "heading_size": "h1",
             "subheading": "Tell your brand's story through images",
             "button_label": "Button label",
-            "link": "shopify:\/\/collections\/new-in",
+            "link": "shopify://collections/new-in",
             "button_style_secondary": false,
             "box_align": "middle-center",
             "show_text_box": true,
@@ -72,8 +72,8 @@
         "slide_qMYM3E": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Banner_mochilas.jpg",
-            "image_mobile": "shopify:\/\/shop_images\/mochilas_mobile_13_719068ae-20d6-4721-ac81-3f8d47f6774a.jpg",
+            "image": "shopify://shop_images/Banner_mochilas.jpg",
+            "image_mobile": "shopify://shop_images/mochilas_mobile_13_719068ae-20d6-4721-ac81-3f8d47f6774a.jpg",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
@@ -139,13 +139,13 @@
         "slide_Dftcii": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/ZIOL_MINIBAG_DK.jpg",
-            "image_mobile": "shopify:\/\/shop_images\/ZIOL_MINIBAG_MOBILE.jpg",
+            "image": "shopify://shop_images/ZIOL_MINIBAG_DK.jpg",
+            "image_mobile": "shopify://shop_images/ZIOL_MINIBAG_MOBILE.jpg",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
             "button_label": "",
-            "link": "shopify:\/\/collections\/carteras-crossbodies",
+            "link": "shopify://collections/carteras-crossbodies",
             "button_style_secondary": false,
             "box_align": "middle-center",
             "show_text_box": true,
@@ -259,9 +259,9 @@
         "template--16161306640578__406a65c7-d10a-4160-a30c-634059fa1435-column-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/W1.png",
-            "title": "<strong>ENVIO A NIVEL NACIONAL<\/strong>",
-            "text": "<p>Despachos a nivel nacional.<\/p>",
+            "image": "shopify://shop_images/W1.png",
+            "title": "<strong>ENVIO A NIVEL NACIONAL</strong>",
+            "text": "<p>Despachos a nivel nacional.</p>",
             "link_label": "",
             "link": ""
           }
@@ -269,9 +269,9 @@
         "column_7G33BN": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/W2.png",
-            "title": "<strong>CAMBIOS Y DEVOLUCIONES<\/strong>",
-            "text": "<p>Hasta 30 dias después de recibida la compra<\/p>",
+            "image": "shopify://shop_images/W2.png",
+            "title": "<strong>CAMBIOS Y DEVOLUCIONES</strong>",
+            "text": "<p>Hasta 30 dias después de recibida la compra</p>",
             "link_label": "",
             "link": ""
           }
@@ -279,9 +279,9 @@
         "5d62f929-a455-4369-b59a-d72d1f33b2a1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/W3.png",
-            "title": "<strong>COMPRA SEGURA<\/strong>",
-            "text": "<p>Con cualquier medio de pago<\/p><p><\/p>",
+            "image": "shopify://shop_images/W3.png",
+            "title": "<strong>COMPRA SEGURA</strong>",
+            "text": "<p>Con cualquier medio de pago</p><p></p>",
             "link_label": "",
             "link": ""
           }
@@ -289,9 +289,9 @@
         "column_gxy9qF": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/W4.png",
-            "title": "<strong>RETIRO EN TIENDA<\/strong>",
-            "text": "<p>Sin costo de envio y en tiendas Ziol<\/p>",
+            "image": "shopify://shop_images/W4.png",
+            "title": "<strong>RETIRO EN TIENDA</strong>",
+            "text": "<p>Sin costo de envio y en tiendas Ziol</p>",
             "link_label": "",
             "link": ""
           }
@@ -306,7 +306,7 @@
       "custom_css": [
         ".multicolumn {background: #000;}",
         ".multicolumn-card-spacing {width: 100%; height: auto;}",
-        ".slider-button {color: rgb(172 172 172 \/ 75%);}",
+        ".slider-button {color: rgb(172 172 172 / 75%);}",
         ".slider-button:not([disabled]):hover {color: rgb(197 197 197);}",
         ".multicolumn-card .inline-richtext {font-size: 15px;}",
         ".multicolumn-card .rte {font-size: 13px;}"
@@ -336,7 +336,7 @@
         "heading": "",
         "heading_size": "h1",
         "enable_video_looping": true,
-        "custm_video_url": "https:\/\/www.youtube.com\/embed\/rqqa37AjIoI?autoplay=1&controls=0&showinfo=0&loop=1&mute=1&playlist=rqqa37AjIoI&enablejsapi=1&origin=https%3A%2F%2Fwww.ziolstore.com&widgetid=1",
+        "custm_video_url": "https://www.youtube.com/embed/rqqa37AjIoI?autoplay=1&controls=0&showinfo=0&loop=1&mute=1&playlist=rqqa37AjIoI&enablejsapi=1&origin=https%3A%2F%2Fwww.ziolstore.com&widgetid=1",
         "video_url": "",
         "description": "",
         "full_width": true,
